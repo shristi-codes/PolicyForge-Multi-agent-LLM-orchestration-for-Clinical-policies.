@@ -14,9 +14,12 @@ __pycache__/
 policyforge/.env
 *.env
 
-# Large binary data
+# Large binary / data files
 policyforge/data/cms_partb_sample.parquet
 policyforge/data/leie.csv
+policyforge/data/raw/*.csv
+policyforge/data/raw/*.parquet
+policyforge/data/raw/*.pdf
 policyforge/data/ncci_edits/*
 !policyforge/data/ncci_edits/.gitkeep
 policyforge/data/rag_cache/
