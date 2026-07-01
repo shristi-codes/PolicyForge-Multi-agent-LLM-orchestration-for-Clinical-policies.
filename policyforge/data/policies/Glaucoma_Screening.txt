@@ -1,0 +1,22 @@
+Glaucoma Screening
+
+HCPCS Codes: G0117, G0118
+
+Who Is Covered:
+Medicare beneficiaries who fall into at least one of the following categories:
+● Have diabetes mellitus
+● Have a family history of glaucoma
+● Are African-Americans aged 50 and older
+● Are Hispanic-Americans aged 65 and older
+
+Frequency:
+Annually for covered Medicare beneficiaries
+
+Codes:
+G0117 – Glaucoma screening by an optometrist or ophthalmologist
+G0118 – Glaucoma screening under the direct supervision of an optometrist or ophthalmologist
+
+ICD-10 Code: Z13.5 (Encounter for screening for eye and ear disorders)
+
+Coverage:
+Annual screening for high-risk individuals as defined above. No age restrictions beyond ethnic-specific criteria. No copayment for covered beneficiaries.

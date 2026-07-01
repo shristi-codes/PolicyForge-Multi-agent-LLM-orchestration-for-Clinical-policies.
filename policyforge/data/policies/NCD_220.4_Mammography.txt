@@ -1,0 +1,28 @@
+NCD 220.4 - Mammograms
+
+Effective Date: 05/15/1978
+National Coverage Determination
+
+Item/Service Description:
+
+A diagnostic mammography is a radiologic procedure furnished to a man or woman with signs and symptoms of breast disease, or a personal history of breast cancer, or a personal history of biopsy-proven benign breast disease, and includes a physician's interpretation of the results of the procedure.
+
+A screening mammography is a radiologic procedure furnished to a woman without signs or symptoms of breast disease, for the purpose of early detection of breast cancer, and includes a physician's interpretation of the results of the procedure. A screening mammography has limitations as it must be, at a minimum a two-view exposure (cranio-caudal and a medial lateral oblique view) of each breast.
+
+Indications and Limitations of Coverage:
+
+A diagnostic mammography is a covered service if it is ordered by a doctor of medicine or osteopathy as defined in §1861(r)(1) of the Act.
+
+Payment may not be made for a screening mammography performed on a woman under age 35. Payment may be made for only one screening mammography performed on a woman over age 34, but under age 40. For an asymptomatic woman over age 39, payment may be made for a screening mammography performed after at least 11 months have passed following the month in which the last screening mammography was performed.
+
+A radiological mammogram is a covered diagnostic test under the following conditions:
+- A patient has distinct signs and symptoms for which a mammogram is indicated;
+- A patient has a history of breast cancer; or
+- A patient is asymptomatic but, on the basis of the patient's history and other factors the physician considers significant, the physician's judgment is that a mammogram is appropriate.
+
+HCPCS Codes: 77065, 77066, 77067, 77063
+Frequency: Annual (at least 11 months between screenings for women over 39)
+Age Restrictions: 
+- No coverage under age 35
+- One screening only for women ages 35-39
+- Annual screening for women 40 and over

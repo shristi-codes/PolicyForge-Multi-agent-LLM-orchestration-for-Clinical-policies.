@@ -1,0 +1,52 @@
+{
+  "policy_id": "NCD_210.3",
+  "sections": [
+    {
+      "test_type": "Fecal Occult Blood Tests (FOBT)",
+      "frequency_limit_months": 12,
+      "target_hcpcs_codes": [
+        "G0107",
+        "82270",
+        "82272",
+        "82274"
+      ],
+      "age_min": 45,
+      "age_max": null,
+      "eligible_conditions": [
+        "colorectal cancer screening for asymptomatic beneficiaries"
+      ],
+      "eligible_icd10_diagnoses": [],
+      "exclusions": [
+        "symptomatic beneficiaries (e.g., lower gastrointestinal pain, blood in stool, positive guaiac fecal occult blood test)",
+        "tests not ordered by the attending physician",
+        "tests performed more frequently than every 12 months"
+      ],
+      "citations": [
+        "Sections 1861(s)(2)(R) and 1861(pp) of the Social Security Act",
+        "42 CFR 410.37"
+      ]
+    },
+    {
+      "test_type": "Cologuard\u2122 \u2013 Multi-target Stool DNA (sDNA) Test",
+      "frequency_limit_months": 36,
+      "target_hcpcs_codes": [
+        "G0464"
+      ],
+      "age_min": 50,
+      "age_max": 85,
+      "eligible_conditions": [
+        "colorectal cancer screening for asymptomatic beneficiaries"
+      ],
+      "eligible_icd10_diagnoses": [],
+      "exclusions": [
+        "beneficiaries under 50 or over 85 years of age",
+        "symptomatic beneficiaries (e.g., lower gastrointestinal pain, blood in stool, positive guaiac fecal occult blood test)",
+        "tests performed more frequently than every 36 months"
+      ],
+      "citations": [
+        "Sections 1861(s)(2)(R) and 1861(pp) of the Social Security Act",
+        "42 CFR 410.37"
+      ]
+    }
+  ]
+}

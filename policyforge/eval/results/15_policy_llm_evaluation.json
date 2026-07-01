@@ -1,0 +1,189 @@
+{
+  "total_policies": 15,
+  "extraction_success_rate": 1.0,
+  "hcpcs_coverage": 0.9333333333333333,
+  "frequency_coverage": 0.7333333333333333,
+  "total_hcpcs_extracted": 46,
+  "results": [
+    {
+      "policy_id": "NCD_150.3",
+      "hcpcs_count": 8,
+      "has_frequency": true,
+      "has_age_restriction": true,
+      "hcpcs_codes": [
+        "76977",
+        "77078",
+        "77079",
+        "77080",
+        "77081",
+        "77085",
+        "77086",
+        "G0130"
+      ],
+      "frequency": 24
+    },
+    {
+      "policy_id": "NCD_210.3",
+      "hcpcs_count": 0,
+      "has_frequency": false,
+      "has_age_restriction": false,
+      "hcpcs_codes": [],
+      "frequency": null
+    },
+    {
+      "policy_id": "Diabetes_Screening",
+      "hcpcs_count": 2,
+      "has_frequency": true,
+      "has_age_restriction": false,
+      "hcpcs_codes": [
+        "82947",
+        "83036"
+      ],
+      "frequency": 12
+    },
+    {
+      "policy_id": "Cardiac_Rehab",
+      "hcpcs_count": 2,
+      "has_frequency": false,
+      "has_age_restriction": false,
+      "hcpcs_codes": [
+        "93797",
+        "93798"
+      ],
+      "frequency": null
+    },
+    {
+      "policy_id": "NCD_220.4",
+      "hcpcs_count": 4,
+      "has_frequency": true,
+      "has_age_restriction": true,
+      "hcpcs_codes": [
+        "77065",
+        "77066",
+        "77067",
+        "77063"
+      ],
+      "frequency": 11
+    },
+    {
+      "policy_id": "NCD_210.1",
+      "hcpcs_count": 1,
+      "has_frequency": true,
+      "has_age_restriction": true,
+      "hcpcs_codes": [
+        "G0103"
+      ],
+      "frequency": 12
+    },
+    {
+      "policy_id": "Cardiovascular",
+      "hcpcs_count": 4,
+      "has_frequency": true,
+      "has_age_restriction": false,
+      "hcpcs_codes": [
+        "80061",
+        "82465",
+        "83718",
+        "84478"
+      ],
+      "frequency": 60
+    },
+    {
+      "policy_id": "Glaucoma",
+      "hcpcs_count": 2,
+      "has_frequency": true,
+      "has_age_restriction": false,
+      "hcpcs_codes": [
+        "G0117",
+        "G0118"
+      ],
+      "frequency": 12
+    },
+    {
+      "policy_id": "Pap_Smear",
+      "hcpcs_count": 11,
+      "has_frequency": true,
+      "has_age_restriction": true,
+      "hcpcs_codes": [
+        "G0123",
+        "G0124",
+        "G0141",
+        "G0143",
+        "G0144",
+        "G0145",
+        "G0147",
+        "G0148",
+        "P3000",
+        "P3001",
+        "Q0091"
+      ],
+      "frequency": 24
+    },
+    {
+      "policy_id": "Hepatitis_C",
+      "hcpcs_count": 1,
+      "has_frequency": false,
+      "has_age_restriction": false,
+      "hcpcs_codes": [
+        "G0567"
+      ],
+      "frequency": null
+    },
+    {
+      "policy_id": "Lung_Cancer",
+      "hcpcs_count": 2,
+      "has_frequency": true,
+      "has_age_restriction": true,
+      "hcpcs_codes": [
+        "G0296",
+        "G0297"
+      ],
+      "frequency": 12
+    },
+    {
+      "policy_id": "AAA_Screening",
+      "hcpcs_count": 2,
+      "has_frequency": false,
+      "has_age_restriction": true,
+      "hcpcs_codes": [
+        "76706",
+        "G0389"
+      ],
+      "frequency": null
+    },
+    {
+      "policy_id": "HIV_Screening",
+      "hcpcs_count": 4,
+      "has_frequency": true,
+      "has_age_restriction": true,
+      "hcpcs_codes": [
+        "G0432",
+        "G0433",
+        "G0435",
+        "G0475"
+      ],
+      "frequency": 11
+    },
+    {
+      "policy_id": "Depression_Screening",
+      "hcpcs_count": 1,
+      "has_frequency": true,
+      "has_age_restriction": false,
+      "hcpcs_codes": [
+        "G0444"
+      ],
+      "frequency": 12
+    },
+    {
+      "policy_id": "Obesity_Therapy",
+      "hcpcs_count": 2,
+      "has_frequency": true,
+      "has_age_restriction": false,
+      "hcpcs_codes": [
+        "G0447",
+        "G0473"
+      ],
+      "frequency": 12
+    }
+  ]
+}

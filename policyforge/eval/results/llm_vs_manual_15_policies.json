@@ -1,0 +1,169 @@
+{
+  "evaluation_date": "2026-07-01",
+  "method": "LLM extraction vs. manual gold standards",
+  "aggregate_metrics": {
+    "policies_evaluated": 15,
+    "mean_hcpcs_f1": 0.982,
+    "frequency_accuracy": 0.733,
+    "excellent_count": 14,
+    "good_count": 1,
+    "needs_improvement_count": 0
+  },
+  "per_policy_results": [
+    {
+      "policy_id": "NCD_150.3",
+      "policy_name": "Bone Mass Measurements",
+      "hcpcs_f1": 0.933,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 7,
+      "llm_hcpcs_count": 8,
+      "gold_frequency": 24,
+      "llm_frequency": 24
+    },
+    {
+      "policy_id": "NCD_210.3",
+      "policy_name": "Colorectal Cancer Screening",
+      "hcpcs_f1": 0.8,
+      "frequency_match": 0.0,
+      "gold_hcpcs_count": 11,
+      "llm_hcpcs_count": 9,
+      "gold_frequency": 12,
+      "llm_frequency": {
+        "fecal_occult_blood_test": 12,
+        "multi_target_stool_dna_test": 36,
+        "blood_based_biomarker_test": 36
+      }
+    },
+    {
+      "policy_id": "Diabetes_Screening",
+      "policy_name": "Diabetes Screening Tests",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 4,
+      "llm_hcpcs_count": 4,
+      "gold_frequency": 12,
+      "llm_frequency": 12
+    },
+    {
+      "policy_id": "Cardiac_Rehab",
+      "policy_name": "Cardiac Rehabilitation",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 2,
+      "llm_hcpcs_count": 2,
+      "gold_frequency": null,
+      "llm_frequency": null
+    },
+    {
+      "policy_id": "NCD_220.4",
+      "policy_name": "Mammography Screening",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 0.0,
+      "gold_hcpcs_count": 4,
+      "llm_hcpcs_count": 4,
+      "gold_frequency": 12,
+      "llm_frequency": 11
+    },
+    {
+      "policy_id": "NCD_210.1",
+      "policy_name": "Prostate Cancer Screening (PSA)",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 1,
+      "llm_hcpcs_count": 1,
+      "gold_frequency": 12,
+      "llm_frequency": 12
+    },
+    {
+      "policy_id": "Cardiovascular",
+      "policy_name": "Cardiovascular Disease Screening",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 4,
+      "llm_hcpcs_count": 4,
+      "gold_frequency": 60,
+      "llm_frequency": 60
+    },
+    {
+      "policy_id": "Glaucoma",
+      "policy_name": "Glaucoma Screening",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 2,
+      "llm_hcpcs_count": 2,
+      "gold_frequency": 12,
+      "llm_frequency": 12
+    },
+    {
+      "policy_id": "Pap_Smear",
+      "policy_name": "Pap Smear/Pelvic Exam Screening",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 11,
+      "llm_hcpcs_count": 11,
+      "gold_frequency": 24,
+      "llm_frequency": 24
+    },
+    {
+      "policy_id": "Hepatitis_C",
+      "policy_name": "Hepatitis C Screening",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 1,
+      "llm_hcpcs_count": 1,
+      "gold_frequency": null,
+      "llm_frequency": null
+    },
+    {
+      "policy_id": "Lung_Cancer",
+      "policy_name": "Lung Cancer Screening (LDCT)",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 2,
+      "llm_hcpcs_count": 2,
+      "gold_frequency": 12,
+      "llm_frequency": 12
+    },
+    {
+      "policy_id": "AAA_Screening",
+      "policy_name": "Abdominal Aortic Aneurysm Screening",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 1,
+      "llm_hcpcs_count": 1,
+      "gold_frequency": null,
+      "llm_frequency": null
+    },
+    {
+      "policy_id": "HIV_Screening",
+      "policy_name": "HIV Screening",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 0.0,
+      "gold_hcpcs_count": 4,
+      "llm_hcpcs_count": 4,
+      "gold_frequency": 12,
+      "llm_frequency": 11
+    },
+    {
+      "policy_id": "Depression_Screening",
+      "policy_name": "Depression Screening",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 1.0,
+      "gold_hcpcs_count": 1,
+      "llm_hcpcs_count": 1,
+      "gold_frequency": 12,
+      "llm_frequency": 12
+    },
+    {
+      "policy_id": "Obesity_Therapy",
+      "policy_name": "Obesity Behavioral Therapy",
+      "hcpcs_f1": 1.0,
+      "frequency_match": 0.0,
+      "gold_hcpcs_count": 2,
+      "llm_hcpcs_count": 2,
+      "gold_frequency": null,
+      "llm_frequency": 12
+    }
+  ],
+  "note": "Real evaluation comparing LLM vs. manual extraction"
+}

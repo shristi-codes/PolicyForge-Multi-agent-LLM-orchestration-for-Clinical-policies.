@@ -1,0 +1,25 @@
+{
+  "policy_id": "NCD_210.1",
+  "frequency_limit_months": 12,
+  "target_hcpcs_codes": [
+    "G0103"
+  ],
+  "age_min": 50,
+  "age_max": null,
+  "eligible_conditions": [
+    "early detection of prostate cancer"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [
+    "tests performed more frequently than once every 12 months",
+    "tests not ordered by a qualifying healthcare provider (physician, physician assistant, nurse practitioner, clinical nurse specialist, or certified nurse midwife)",
+    "tests for beneficiaries under age 50",
+    "tests for female beneficiaries"
+  ],
+  "citations": [
+    "Section 4103 of the Balanced Budget Act of 1997",
+    "\u00a71861(r)(1) of the Act",
+    "\u00a71861(aa) of the Act",
+    "\u00a71861(gg) of the Act"
+  ]
+}

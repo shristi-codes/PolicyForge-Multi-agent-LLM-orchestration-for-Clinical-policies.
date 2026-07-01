@@ -1,0 +1,23 @@
+{
+  "policy_id": "NCD_150.3",
+  "frequency_limit_months": 23,
+  "target_hcpcs_codes": [
+    "77080",
+    "77081"
+  ],
+  "age_min": null,
+  "age_max": null,
+  "eligible_conditions": [
+    "Estrogen-deficient women at clinical risk for osteoporosis",
+    "Individuals with vertebral abnormalities indicative of osteoporosis, osteopenia, or vertebral fracture",
+    "Individuals receiving or expecting to receive glucocorticoid (steroid) therapy equivalent to 5.0 mg prednisone or greater per day for more than 3 months",
+    "Individuals with primary hyperparathyroidism",
+    "Individuals being monitored to assess response to or efficacy of FDA-approved osteoporosis drug therapy"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [
+    "Single photon absorptiometry",
+    "Dual photon absorptiometry"
+  ],
+  "citations": []
+}

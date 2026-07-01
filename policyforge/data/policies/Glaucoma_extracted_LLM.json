@@ -1,0 +1,21 @@
+{
+  "policy_id": "Glaucoma",
+  "frequency_limit_months": 12,
+  "target_hcpcs_codes": [
+    "G0117",
+    "G0118"
+  ],
+  "age_min": null,
+  "age_max": null,
+  "eligible_conditions": [
+    "Diabetes mellitus",
+    "Family history of glaucoma",
+    "African-American aged 50 and older",
+    "Hispanic-American aged 65 and older"
+  ],
+  "eligible_icd10_diagnoses": [
+    "Z13.5"
+  ],
+  "exclusions": [],
+  "citations": []
+}

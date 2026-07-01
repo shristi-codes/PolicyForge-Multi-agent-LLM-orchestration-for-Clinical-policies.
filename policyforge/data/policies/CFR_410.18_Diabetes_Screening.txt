@@ -1,0 +1,52 @@
+Diabetes Screening Tests
+42 CFR § 410.18
+
+Effective Date: November 16, 2023
+
+A. General
+
+Medicare Part B covers diabetes screening tests after a referral from a physician or qualified nonphysician practitioner to an individual at risk for diabetes for the purpose of early detection of diabetes.
+
+B. Covered Tests
+
+The following tests are covered if all other conditions are met:
+
+1. Fasting blood glucose test (CPT 82947)
+2. Post-glucose challenges including, but not limited to:
+   - Oral glucose tolerance test with a glucose challenge of 75 grams of glucose for non-pregnant adults
+   - 2-hour post glucose challenge test alone
+3. Hemoglobin A1C test (CPT 83036)
+4. Other tests as determined by the Secretary through a national coverage determination
+
+C. Frequency Limitations
+
+Medicare covers TWO tests within the 12-month period following the date of the most recent diabetes screening test of that individual.
+
+This frequency applies to all beneficiaries regardless of prior diagnoses.
+
+D. Eligible Risk Factors
+
+Individuals with the following risk factors are eligible to receive the benefit:
+
+1. Hypertension
+2. Dyslipidemia (abnormal cholesterol or triglycerides)
+3. Obesity, defined as a body mass index greater than or equal to 30 kg/m²
+4. Prior identification of impaired fasting glucose or glucose intolerance
+5. Any two of the following characteristics:
+   a. Overweight, defined as body mass index greater than 25, but less than 30 kg/m²
+   b. A family history of diabetes
+   c. 65 years of age or older
+   d. A history of gestational diabetes mellitus or delivery of a baby weighing more than 9 pounds
+
+E. Coverage Conditions
+
+- Tests must be ordered by a physician or qualified nonphysician practitioner
+- Tests must be performed in a CLIA-certified laboratory
+- Beneficiary must have at least one eligible risk factor
+- No coinsurance or deductible applies to these preventive screening tests
+
+F. Non-Covered Services
+
+Diabetes screening tests performed more frequently than two times within a 12-month period are not covered unless determined medically necessary for diagnostic (not screening) purposes.
+
+Tests performed for diagnostic purposes (rather than screening) are covered under different Medicare benefit categories with different frequency and coverage criteria.

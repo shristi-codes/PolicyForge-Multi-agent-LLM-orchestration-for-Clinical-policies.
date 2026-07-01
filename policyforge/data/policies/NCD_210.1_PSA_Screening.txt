@@ -1,0 +1,19 @@
+NCD 210.1 - Prostate Cancer Screening Tests
+
+Effective Date: 06/19/2006
+National Coverage Determination
+
+Section 4103 of the Balanced Budget Act of 1997 provides for coverage of certain prostate cancer screening tests subject to certain coverage, frequency, and payment limitations. Medicare will cover prostate cancer screening tests/procedures for the early detection of prostate cancer.
+
+C. Screening Prostate Specific Antigen Tests
+
+Screening prostate specific antigen tests are covered at a frequency of once every 12 months for men who have attained age 50 (at least 11 months have passed following the month in which the last Medicare-covered screening prostate specific antigen test was performed). 
+
+Screening prostate specific antigen tests (PSA) means a test to detect the marker for adenocarcinoma of prostate. PSA is a reliable immunocytochemical marker for primary and metastatic adenocarcinoma of prostate. 
+
+This screening must be ordered by the beneficiary's physician or by the beneficiary's physician assistant, nurse practitioner, clinical nurse specialist, or certified nurse midwife (the term "attending physician" is defined in §1861(r)(1) of the Act to mean a doctor of medicine or osteopathy and the terms "physician assistant, nurse practitioner, clinical nurse specialist, or certified nurse midwife" are defined in §1861(aa) and §1861(gg) of the Act) who is fully knowledgeable about the beneficiary's medical condition, and who would be responsible for using the results of any examination (test) performed in the overall management of the beneficiary's specific medical problem.
+
+HCPCS Code: G0103
+Frequency: Annual (at least 11 months between screenings)
+Age Restrictions: Men age 50 and older
+Gender Restrictions: Male only

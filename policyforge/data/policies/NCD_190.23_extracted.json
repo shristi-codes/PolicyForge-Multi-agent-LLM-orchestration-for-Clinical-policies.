@@ -1,0 +1,1 @@
+{"policy_id": "NCD_190.23", "frequency_limit_months": 60, "target_hcpcs_codes": ["80061", "82465", "83718", "84478"], "age_min": null, "age_max": null, "eligible_conditions": ["Asymptomatic beneficiaries"], "eligible_icd10_diagnoses": [], "exclusions": [], "citations": []}

@@ -1,0 +1,36 @@
+{
+  "policy_id": "Pap_Smear",
+  "frequency_limit_months": 24,
+  "target_hcpcs_codes": [
+    "G0123",
+    "G0124",
+    "G0141",
+    "G0143",
+    "G0144",
+    "G0145",
+    "G0147",
+    "G0148",
+    "P3000",
+    "P3001",
+    "Q0091"
+  ],
+  "age_min": 18,
+  "age_max": null,
+  "eligible_conditions": [
+    "Women at normal risk for cervical or vaginal cancer (every 24 months)",
+    "Women at high risk of developing cervical or vaginal cancer (every 12 months)",
+    "Women of childbearing age who have had an abnormal Pap test during the past 3 years (every 12 months)",
+    "Sexually active women regardless of age"
+  ],
+  "eligible_icd10_diagnoses": [
+    "Z01.411",
+    "Z01.419",
+    "Z12.72",
+    "Z12.73"
+  ],
+  "exclusions": [
+    "Women who do not meet high-risk criteria and have had a normal Pap test within the past 24 months",
+    "Women who meet high-risk criteria but have had a normal Pap test within the past 12 months"
+  ],
+  "citations": []
+}

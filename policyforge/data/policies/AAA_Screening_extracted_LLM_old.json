@@ -1,0 +1,24 @@
+{
+  "policy_id": "AAA_Screening",
+  "frequency_limit_months": null,
+  "target_hcpcs_codes": [
+    "76706",
+    "G0389"
+  ],
+  "age_min": 65,
+  "age_max": 75,
+  "eligible_conditions": [
+    "Family history of abdominal aortic aneurysm",
+    "Male aged 65-75 with a history of smoking at least 100 cigarettes in lifetime",
+    "Other risk factors in a beneficiary category recommended for screening by the USPSTF"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [
+    "Symptomatic individuals",
+    "Screening more than once in a lifetime",
+    "Individuals outside eligible beneficiary criteria"
+  ],
+  "citations": [
+    "CFR 410.19"
+  ]
+}

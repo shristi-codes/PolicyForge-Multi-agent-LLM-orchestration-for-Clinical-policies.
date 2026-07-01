@@ -1,0 +1,32 @@
+# Virtual environments
+policyforge/.venv/
+policyforge/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets — never commit these
+policyforge/.env
+*.env
+
+# Large binary data
+policyforge/data/cms_partb_sample.parquet
+policyforge/data/leie.csv
+policyforge/data/ncci_edits/*
+!policyforge/data/ncci_edits/.gitkeep
+policyforge/data/rag_cache/
+
+# Model artifacts
+*.bin
+*.safetensors
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp

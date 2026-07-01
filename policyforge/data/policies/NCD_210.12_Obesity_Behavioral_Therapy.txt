@@ -1,0 +1,25 @@
+NCD 210.12 - Intensive Behavioral Therapy for Obesity
+
+Effective Date: November 29, 2011
+
+Based upon authority to cover "additional preventive services" for Medicare beneficiaries, CMS initiated a new national coverage analysis on intensive behavioral therapy for obesity. Screening for obesity in adults is recommended with a grade of B by the U.S. Preventive Services Task Force (USPSTF) and is appropriate for individuals entitled to benefits under Part A and Part B.
+
+Effective for claims with dates of service on or after November 29, 2011, CMS covers intensive behavioral therapy for obesity, defined as a body mass index (BMI) ≥ 30 kg/m2, for the prevention or early detection of illness or disability.
+
+Coverage includes:
+1. Screening for obesity in adults using measurement of BMI calculated by dividing weight in kilograms by the square of height in meters (expressed kg/m2);
+2. Dietary (nutritional) assessment; and
+3. Intensive behavioral counseling and behavioral therapy to promote sustained weight loss through high intensity interventions on diet and exercise.
+
+Medicare beneficiaries with obesity (BMI ≥ 30 kg/m2), who are competent and alert at the time that counseling is provided and whose counseling is furnished by a qualified primary care physician or other primary care practitioner in a primary care setting are eligible for:
+
+- One face-to-face visit every week for the first month
+- One face-to-face visit every other week for months 2-6
+- One face-to-face visit every month for months 7-12
+
+If beneficiaries achieve a reduction of at least 3 kg during the first 6 months, they are eligible for 6 additional monthly sessions.
+
+HCPCS Codes: G0447 (individual session), G0473 (group session)
+Frequency: Weekly (month 1), bi-weekly (months 2-6), monthly (months 7-12)
+Eligibility: BMI ≥ 30 kg/m2
+Setting Requirement: Primary care setting with qualified primary care provider

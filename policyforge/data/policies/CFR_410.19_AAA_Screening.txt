@@ -1,0 +1,22 @@
+CFR 410.19 - Ultrasound Screening for Abdominal Aortic Aneurysms (AAA)
+
+Effective Date: January 1, 2007
+
+Ultrasound screening for abdominal aortic aneurysms means the following services furnished to an asymptomatic individual for the early detection of an abdominal aortic aneurysm:
+
+(1) A procedure using soundwaves (or other procedures using alternative technologies of commensurate accuracy and cost, as specified by the Secretary through a national coverage determination process) provided for the early detection of abdominal aortic aneurysms.
+
+(2) Includes a physician's interpretation of the results of the procedure.
+
+Conditions for Coverage:
+Medicare Part B pays for one ultrasound screening for an abdominal aortic aneurysm provided to eligible beneficiaries, after a referral from a physician or a qualified nonphysician practitioner, when the test is performed by a provider or supplier that is authorized to provide covered ultrasound diagnostic services.
+
+Eligible Beneficiaries (must meet at least one):
+- Has a family history of abdominal aortic aneurysm
+- Is a man age 65 to 75 who has smoked at least 100 cigarettes in his lifetime
+- Manifests other risk factors in a beneficiary category recommended for screening by the USPSTF
+
+HCPCS Code: 76706 (effective January 1, 2017; previously G0389)
+Frequency: One-time screening (once in lifetime)
+Age Restrictions: Men 65-75 (for smoking history criteria)
+Gender Restrictions: Male (for smoking criteria); both genders for family history

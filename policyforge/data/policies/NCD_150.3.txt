@@ -1,0 +1,250 @@
+National Coverage Determination 150.3
+Title: Bone (Mineral) Density Studies
+Publication: 100-3
+Effective date: 01/01/2007
+Benefit category: Bone Mass Measurement
+
+========================================================================
+NCD SUMMARY (CMS Medicare Coverage Database)
+========================================================================
+
+Item Service Description
+------------------------
+Conditions for coverage of BMMs are now contained in chapter 15, section 80.5 of Pub. 100-02, Medicare Benefit Policy Manual.
+
+Indications Limitations
+-----------------------
+Conditions for coverage of bone mass measurements are now contained in chapter 15, section 80.5 of Pub. 100-02, Medicare Benefit Policy Manual. Claims processing instructions can be found in chapter 13, section 140 of Pub. 100-04, Medicare Claims Processing Manual.
+
+Revision History
+----------------
+02/2024 - The purpose of this Change Request (CR) is to provide a maintenance update of ICD-10 conversions and other coding updates specific to NCDs. (TN 12493) (CR13507)
+
+01/2024 - Transmittal 12350 issued November 03, 2023, is being rescinded and replaced by Transmittal 12440 dated January 3, 2024, to make changes to NCD 90.2, Next Generation Sequencing, spreadsheet to align with revisions being made to CR 13278. All other information remains the same. (TN 12440) (CR13391)
+
+11/2023 - The purpose of this Change Request (CR) is to provide a quarterly maintenance update of ICD-10 coding conversions and other coding updates specific to National Coverage Determinations (NCDs). No policy is being changed as a result of these updates.(TN 12350) (CR13391)
+
+10/2023 - The purpose of this Change Request (CR) is to provide a quarterly maintenance update of ICD-10 coding conversions and other coding updates specific to National Coverage Determinations (NCDs). No policy is being changed as a result of these updates. (TN 12319) (CR13391)
+
+04/2023 - Transmittal 11884 issued March 01, 2023, is being rescinded and replaced by Transmittal 11952, dated, April 12, 2023, to remove the A/B MACs (Part A) and FISS from BR 13070.1 and to revise the NCD 20.4 Implantable Automatic Defibrillators (ICDs) spreadsheet. All other information remains the same. (TN 11952) (CR13070)
+
+03/2023 - Transmittal 11832 issued February 02, 2023, is being rescinded and replaced by Transmittal 11884, dated, March 1, 2023 to (1) Business Requirement (BR) 13070.4, NCD 150.3 - delete three non-covered CPT codes added in error and remove reference to ALERT M38; (2) BR 13070.1, NCD 20.4 - clarify that C codes are only payable in the ASC setting; and (3) NCD 220.13 spreadsheet - correct effective date of MSN 21.11 to December 31, 2022 to align with BR 13070.7. All other information remains the same.  (TN 11884) (CR13070)
+
+02/2023 - The purpose of the Change Request (CR) is to provide a maintenance update of ICD-10 conversions and other coding updates specific to NCDs.  These NCD coding changes are the result of newly available codes, coding revisions to NCDs released separately, or coding feedback received.  (TN 11832) (CR13070)
+
+08/2022 - The purpose of this Change Request (CR) is to provide a maintenance update of ICD-10 conversions and other coding updates specific to NCDs. (TN 11546) (CR12842)
+
+ 04/2022 - This Change Request (CR) constitutes a maintenance update of ICD-10 conversions and other coding updates specific to NCDs. These NCD coding changes are the result of newly available codes, coding revisions to NCDs released separately, or coding feedback received. (TN 11391) (CR12606)
+
+04/2022 - Transmittal 11264, dated February 10, 2022, is being rescinded and replaced by Transmittal 11342, dated, April 6, 2022 to (1) revise BR 12606.10 instructions for NCD 110.24, (2) BR12606.2, fix typo in NCD 160.18 spreadsheet ICD-10 G40.384, which should be G40.834, and, (3) revise implementation verbiage (no changes to the actual implementation date).  All other information remains the same.  (TN 11342) (CR12606)
+
+02/2022 - This Change Request (CR) constitutes a maintenance update of ICD-10 conversions and other coding updates specific to NCDs. These NCD coding changes are the result of newly available codes, coding revisions to NCDs released separately, or coding feedback received.(TN 11264) (CR12606)
+
+02/2020 - This Change Request (CR) constitutes a maintenance update of ICD-10 conversions and other coding updates specific to NCDs. These NCD coding changes are the result of newly available codes, coding revisions to NCDs released separately, or coding feedback received.
+
+Previous NCD coding changes appear in ICD-10 quarterly updates that can be found at: https://www.cms.gov/Medicare/Coverage/CoverageGenInfo/ICD10.html, along with other CRs implementing new policy NCDs. Edits to ICD-10 and other coding updates specific to NCDs will be included in subsequent quarterly releases and individual CRs as appropriate. No policy-related changes are included with the ICD-10 quarterly updates. Any policy-related changes to NCDs continue to be implemented via the current, longstanding NCD process. (TN 2439) (CR11655)
+
+09/2019 - This Change Request (CR) constitutes a maintenance update of ICD-10 conversions and other coding updates specific to NCDs. These NCD coding changes are the result of newly available codes, coding revisions to NCDs released separately, or coding feedback received. (TN 2362) (CR11392)
+
+05/2019 - This Change Request (CR) constitutes a maintenance update of ICD-10 conversions and other coding updates specific to NCDs. These NCD coding changes are the result of newly available codes, coding revisions to NCDs released separately, or coding feedback received.
+
+Previous NCD coding changes appear in ICD-10 quarterly updates that can be found at https://www.cms.gov/Medicare/Coverage/CoverageGenInfo/ICD10.html, along with other CRs implementing new policy NCDs. Edits to ICD-10 and other coding updates specific to NCDs will be included in subsequent quarterly releases and individual CRs as appropriate. No policy-related changes are included with the ICD-10 quarterly updates. Any policy-related changes to NCDs continue to be implemented via the current, long-standing NCD process.(TN 2298) (CR11229)
+
+05/2018 - This Change Request (CR) constitutes a maintenance update of ICD-10 conversions and other coding updates specific to NCDs. These NCD coding changes are the result of newly available codes, coding revisions to NCDs released separately, or coding feedback received.
+
+Previous NCD coding changes appear in ICD-10 quarterly updates that can be found at: https://www.cms.gov/Medicare/Coverage/CoverageGenInfo/ICD10.html, along with other CRs implementing new policy NCDs. Edits to ICD-10 and other coding updates specific to NCDs will be included in subsequent quarterly releases and individual CRs as appropriate. No policy-related changes are included with the ICD-10 quarterly updates. (TN 2076) (CR10622)
+
+ 02/2018 - Transmittal 2033, dated February 16, 2018, is being rescinded and replaced by Transmittal 2039, dated, February 28, 2018 to correct instructions in business requirement 7, NCD210.3, Colorectal Cancer Screening, and its accompanying spreadsheet. All other information remains the same. (TN 2039) (CR10473)
+
+02/2018 - This Change Request (CR) constitutes a maintenance update of International Code of Diseases, Tenth Revision (ICD-10) conversions and other coding updates specific to National Coverage Determinations (NCDs). These NCD coding changes are the result of newly available codes, coding revisions to NCDs released separately, or coding feedback received. 
+
+Previous NCD coding changes appear in ICD-10 quarterly updates that can be found at: https://www.cms.gov/Medicare/Coverage/CoverageGenInfo/ICD10.html, along with other CRs implementing new policy NCDs. Edits to ICD-10 and other coding updates specific to NCDs will be included in subsequent quarterly releases and individual CRs as appropriate. No policy-related changes are included with the ICD-10 quarterly updates. Any policy-related changes to NCDs continue to be implemented via the current, long-standing NCD process. (TN 2033) (CR10473)
+
+04/2016 - Transmittal 1630, dated February 26, 2016, is being rescinded and replaced by Transmittal 1658 to (1) remove duplicate spreadsheet NCD210.3, (2) add missing spreadsheet NCD20.33, (3) add B/MAC to requirement 3 at request of WPS/B, (4) rename the spreadsheet titles, and, (5) provide a link to the attached spreadsheets for more efficient ease of reference and accessibility. All other information remains the same.  (TN 1658) (CR9540)
+
+  
+
+ 12/2015 - This change request (CR) is the 3rd maintenance update of ICD-10 conversions/updates specific to national coverage determinations (NCDs). The majority of the NCDs included are a result of feedback received from previous ICD-10 NCD CR7818, CR8109, CR8197, CR8691, & CR9087. Some are the result of revisions required to other NCD-related CRs released separately that included ICD-10 coding.  Implementation date: 01/04/2016 Effective date: 10/1/2015. (TN 1580 ) (CR9252)
+
+  
+  
+ 08/2015 - This change request (CR) is the 3rd maintenance update of ICD-10 conversions/updates specific to national coverage determinations (NCDs). The majority of the NCDs included are a result of feedback received from previous ICD-10 NCD CR7818, CR8109, CR8197, CR8691, & CR9087. Some are the result of revisions required to other NCD-related CRs released separately that included ICD-10 coding.   
+These updates do not expand, restrict, or alter existing coverage policy.  Implementation date: 01/04/2016 Effective date: 10/1/2015.  (TN 1537) (CR 9252)
+
+   
+
+ 05/2014 - CMS translated the information for this policy from ICD-9-CM/PCS to ICD-10-CM/PCS according to HIPAA standard medical data code set requirements and updated any necessary and related coding infrastructure. These updates do not expand, restrict, or alter existing coverage policy.  Implementation date: 10/06/2014 Effective date: 10/1/2015.  (TN 1388)  (TN 1388) (CR 8691)
+
+   
+
+ 09/2012 - CMS translated the information for this policy from ICD-9-CM/PCS to ICD-10-CM/PCS according to HIPAA standard medical data code set requirements and updated any necessary and related coding infrastructure. These updates do not expand, restrict, or alter existing coverage policy.Implementation date: 01/07/2013 Effective date: 10/1/2015. (TN    
+1122) (TN 1122) (CR 7818)
+
+  
+   05/2007 - Conditions for coverage of BMMs are now contained in chapter 15, section 80.5 of Pub. 100-02, Medicare Benefit Policy Manual. Effective date 01/01/2007. Implementation date 07/02/2007
+
+   
+   
+   07/1997 - Section 4106 of the Balanced Budget Act of 1997 (P.L. 105-217) created a bone mass measurement benefit (&#167;1861(rr) of the Social Security Act&#160;http://www.ssa.gov/OP_Home/ssact/title18/1861.htm ).&#160; This manual section was not updated to reflect the new coverage.&#160; The conforming regulations are found at 42 CFR &#167;410.31 (http://www.gpo.gov/nara/cfr/index.html). Effective date 7/1/1998.
+
+========================================================================
+MEDICARE BENEFIT POLICY MANUAL — Chapter 15, Section 80.5
+(Pub. 100-02; extracted from CMS Transmittal R70BP)
+========================================================================
+
+80.5 - Bone Mass Measurements (BMMs) 
+(Rev.70, Issued: 05-11-07, Effective: 01-01-07, Implementation: 07-02-07) 
+ 
+80.5.1 - Background 
+(Rev.70, Issued: 05-11-07, Effective: 01-01-07, Implementation: 07-02-07) 
+ 
+On June 24, 1998, CMS published an Interim Final Rule with Comment Period (IFC) in 
+the Federal Register entitled "Medicare Coverage of and Payment for Bone Mass 
+Measurements."  This IFC implemented section 4106 of the Balanced Budget Act of 1997 
+by establishing conditions for coverage and frequency standards thereby providing 
+uniform coverage under Medicare Part B.  It was effective July1, 1998. 
+ 
+On December 1, 2006, CMS published the CY 2007 Physician Fee Schedule final rule.  
+This rule implemented several changes effective January 1, 2007, which are reflected 
+below. 
+ 
+80.5.2 - Authority 
+(Rev.70, Issued: 05-11-07, Effective: 01-01-07, Implementation: 07-02-07) 
+ 
+Definitions can be found in sections 1861(s)(15) and (rr)(1) of the Social Security Act 
+(the Act).  Conditions for coverage and frequency standards can be found in 42 CFR 
+410.31.  Denials as not reasonable and necessary can be found at §1862(a)(1)(A) of the 
+Act, 42 CFR 410.31(e), and 42 CFR 411.15(k). 
+ 
+80.5.3 - Definition 
+(Rev.70, Issued: 05-11-07, Effective: 01-01-07, Implementation: 07-02-07) 
+ 
+BMM means a radiologic, radioisotopic, or other procedure that meets all of the 
+following conditions: 
+ 
+• Is performed to identify bone mass, detect bone loss, or determine bone 
+quality. 
+ 
+• Is performed with either a bone densitometer (other than single-photon or 
+dual-photon absorptiometry) or a bone sonometer system that has been 
+cleared for marketing for BMM by the Food and Drug Administration (FDA) 
+under 21 CFR part 807, or approved for marketing under 21 CFR part 814. 
+ 
+• Includes a physician’s interpretation of the results. 
+ 
+ 
+ 
+ 
+ 
+ 
+80.5.4 - Conditions for Coverage 
+(Rev.70, Issued: 05-11-07, Effective: 01-01-07, Implementation: 07-02-07) 
+ 
+Medicare covers BMM under the following conditions: 
+ 
+1. Is ordered by the physician or qualified nonphysician practitioner who is treating the 
+beneficiary following an evaluation of the need for a BMM and determination of the 
+appropriate BMM to be used. 
+ 
+A physician or qualified nonphysician practitioner treating the beneficiary for 
+purposes of this provision is one who furnishes a consultation or treats a beneficiary 
+for a specific medical problem, and who uses the results in the management of the 
+patient.  For the purposes of the BMM benefit, qualified nonphysician practitioners 
+include physician assistants, nurse practitioners, clinical nurse specialists, and 
+certified nurse midwives. 
+ 
+2. Is performed under the appropriate level of physician supervision as defined in 42 
+CFR 410.32(b). 
+ 
+3. Is reasonable and necessary for diagnosing and treating the condition of a 
+beneficiary who meets the conditions described in §80.5.6. 
+ 
+4. In the case of an individual being monitored to assess the response to or efficacy of 
+an FDA-approved osteoporosis drug therapy, is performed with a dual-energy x-ray 
+absorptiometry system (axial skeleton). 
+ 
+5. In the case of any individual who meets the conditions of 80.5.6 and who has a 
+confirmatory BMM, is performed by a dual-energy x-ray absorptiometry system 
+(axial skeleton) if the initial BMM was not performed by a dual-energy x-ray 
+absorptiometry system (axial skeleton).  A confirmatory baseline BMM 
+is not covered 
+if the initial BMM was performed by a dual-energy x-ray absorptiometry system 
+(axial skeleton). 
+ 
+80.5.5 - Frequency Standards 
+(Rev.70, Issued: 05-11-07, Effective: 01-01-07, Implementation: 07-02-07) 
+ 
+Medicare pays for a screening BMM once every 2 years (at least 23 months have passed 
+since the month the last covered BMM was performed). 
+ 
+When medically necessary, Medicare may pay for more frequent BMMs.  Examples 
+include, but are not limited to, the following medical circumstances: 
+ 
+• Monitoring beneficiaries on long-term glucocorticoid (steroid) therapy of 
+more than 3 months. 
+ 
+• Confirming baseline BMMs to permit monitoring of beneficiaries in the 
+future. 
+ 
+ 
+80.5.6 - Beneficiaries Who May be Covered 
+(Rev.70, Issued: 05-11-07, Effective: 01-01-07, Implementation: 07-02-07) 
+ 
+To be covered, a beneficiary must meet at least one of the five conditions listed below: 
+ 
+1. A woman who has been determined by the physician or qualified nonphysician 
+practitioner treating her to be estrogen-deficient and at clinical risk for osteoporosis, 
+based on her medical history and other findings. 
+ 
+NOTE: Since not every woman who has been prescribed estrogen replacement 
+therapy (ERT) may be receiving an “adequate” dose of the therapy, the fact that a 
+woman is receiving ERT should not preclude her treating physician or other qualified 
+treating nonphysician practitioner from ordering a bone mass measurement for her.  
+If a BMM is ordered for a woman following a careful evaluation of her medical need, 
+however, it is expected that the ordering treating physician (or other qualified 
+treating nonphysician practitioner) will document in her medical record why he or 
+she believes that the woman is estrogen-deficient and at clinical risk for osteoporosis. 
+ 
+2. An individual with vertebral abnormalities as demonstrated by an x-ray to be 
+indicative of osteoporosis, osteopenia, or vertebral fracture. 
+ 
+3. An individual receiving (or expecting to receive) glucocorticoid (steroid) therapy 
+equivalent to an average of 5.0 mg of prednisone, or greater, per day, for more than 3 
+months. 
+ 
+4. An individual with primary hyperparathyroidism. 
+ 
+5. An individual being monitored to assess the response to or efficacy of an FDA-
+approved osteoporosis drug therapy. 
+ 
+80.5.7 - Noncovered BMMs 
+(Rev.70, Issued: 05-11-07, Effective: 01-01-07, Implementation: 07-02-07) 
+ 
+The following BMMs are noncovered under Medicare because they are not considered 
+reasonable and necessary under section 1862(a)(1)(A) of the Act. 
+ 
+• Single photon absorptiometry (effective January 1, 2007). 
+• Dual photon absorptiometry (established in 1983). 
+ 
+ 
+ 
+80.5.8 - Claims Processing 
+(Rev.70, Issued: 05-11-07, Effective: 01-01-07, Implementation: 07-02-07) 
+ 
+For instructions concerning payment methodology, HCPCS coding, and Medicare 
+summary notice and remittance advice messages, see chapter 13, section 140 of Pub. 
+100-04, Medicare Claims Processing Manual. 
+ 
+80.5.9 - National Coverage Determinations (NCDs) 
+(Rev.70, Issued: 05-11-07, Effective: 01-01-07, Implementation: 07-02-07) 
+ 
+In addition to these conditions for coverage, CMS may determine through the NCD 
+process that additional BMM systems are reasonable and necessary under section 
+1862(a)(1) of the Act for monitoring and confirming baseline BMMs.
+
+========================================================================
+SOURCE REFERENCES
+========================================================================
+- NCD viewer: https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=256
+- Coverage API: https://api.coverage.cms.gov/v1/data/ncd/?ncdid=256
+- Benefit Policy Manual PDF: https://www.cms.gov/Regulations-and-Guidance/Guidance/Transmittals/downloads/R70BP.pdf

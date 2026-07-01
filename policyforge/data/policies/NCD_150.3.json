@@ -1,0 +1,15 @@
+{
+  "policy_id": "NCD_150.3",
+  "document_id": "256",
+  "document_display_id": "150.3",
+  "title": "Bone (Mineral) Density Studies",
+  "effective_date": "01/01/2007",
+  "sources": {
+    "coverage_api": "https://api.coverage.cms.gov/v1/data/ncd/?ncdid=256",
+    "benefit_policy_manual_pdf": "https://www.cms.gov/Regulations-and-Guidance/Guidance/Transmittals/downloads/R70BP.pdf"
+  },
+  "hcpcs_codes": [
+    "77080",
+    "77081"
+  ]
+}

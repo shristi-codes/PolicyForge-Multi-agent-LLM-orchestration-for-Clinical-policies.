@@ -1,0 +1,12 @@
+{
+  "policy_id": "NCD_210.1",
+  "frequency_limit_months": 12,
+  "target_hcpcs_codes": ["G0103"],
+  "age_min": 50,
+  "age_max": null,
+  "eligible_conditions": ["Men for prostate cancer screening"],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": ["Men under age 50"],
+  "citations": [],
+  "extraction_notes": "MANUALLY EXTRACTED from actual NCD 210.1 text. Frequency: annual (11+ months). HCPCS G0103. Age 50+, male only."
+}

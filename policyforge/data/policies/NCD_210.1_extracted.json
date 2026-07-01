@@ -1,0 +1,1 @@
+{"policy_id": "NCD_210.1", "frequency_limit_months": 12, "target_hcpcs_codes": ["G0103", "G0102"], "age_min": 50, "age_max": null, "eligible_conditions": ["Men age 50 and older"], "eligible_icd10_diagnoses": [], "exclusions": [], "citations": []}

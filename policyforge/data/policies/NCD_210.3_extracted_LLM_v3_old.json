@@ -1,0 +1,12 @@
+{
+  "policy_id": "NCD_210.3",
+  "frequency_limit_months": null,
+  "target_hcpcs_codes": [
+    "G0107",
+    "G0121",
+    "G0328",
+    "82270",
+    "82272",
+    "82274"
+  ]
+}

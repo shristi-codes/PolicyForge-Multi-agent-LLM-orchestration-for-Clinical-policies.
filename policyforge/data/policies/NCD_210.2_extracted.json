@@ -1,0 +1,1 @@
+{"policy_id": "NCD_210.2", "frequency_limit_months": 24, "target_hcpcs_codes": ["Q0091", "G0101"], "age_min": null, "age_max": null, "eligible_conditions": ["Women for cervical cancer screening"], "eligible_icd10_diagnoses": [], "exclusions": [], "citations": []}

@@ -1,0 +1,12 @@
+{
+  "policy_id": "NCD_220.4",
+  "frequency_limit_months": 12,
+  "target_hcpcs_codes": ["77065", "77066", "77067", "77063"],
+  "age_min": 40,
+  "age_max": null,
+  "eligible_conditions": ["Asymptomatic women for breast cancer screening"],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": ["Women under age 35", "More than one screening for women 35-39"],
+  "citations": [],
+  "extraction_notes": "MANUALLY EXTRACTED from actual NCD 220.4 text. Frequency: annual (11+ months). HCPCS codes from CMS documentation. Age 40+ for annual screening, 35-39 for one-time baseline only."
+}

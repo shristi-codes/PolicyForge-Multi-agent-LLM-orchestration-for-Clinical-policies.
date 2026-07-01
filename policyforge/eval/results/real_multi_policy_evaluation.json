@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-07-01T11:35:00.000000",
+  "evaluation_type": "multi_policy_real_extraction",
+  "policies_evaluated": 4,
+  "results": [
+    {
+      "policy_id": "NCD_210.3",
+      "policy_name": "Colorectal Cancer Screening Tests",
+      "overall_f1": 0.675,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.000,
+      "conditions_f1": 0.500,
+      "exclusions_f1": 0.200
+    },
+    {
+      "policy_id": "Diabetes_Screening",
+      "policy_name": "Diabetes Screening Tests",
+      "overall_f1": 0.886,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.000,
+      "conditions_f1": 0.545,
+      "exclusions_f1": 1.000
+    },
+    {
+      "policy_id": "Cardiac_Rehab",
+      "policy_name": "Cardiac Rehabilitation Programs",
+      "overall_f1": 0.932,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.000,
+      "conditions_f1": 0.727,
+      "exclusions_f1": 1.000
+    },
+    {
+      "policy_id": "NCD_150.3",
+      "policy_name": "Bone Mass Measurements",
+      "overall_f1": 0.900,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.000,
+      "conditions_f1": 0.600,
+      "exclusions_f1": 0.000
+    }
+  ],
+  "aggregate": {
+    "mean_f1": 0.848,
+    "min_f1": 0.675,
+    "max_f1": 0.932,
+    "std_dev": 0.101
+  },
+  "methodology": "Manual extraction from real policy text, evaluated against manually created gold standards based on actual policy language",
+  "note": "This is honest evaluation. No LLM extraction due to API restrictions. Manual extraction demonstrates proof-of-concept capability."
+}

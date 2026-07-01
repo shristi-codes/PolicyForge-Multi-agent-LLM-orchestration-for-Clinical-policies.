@@ -1,0 +1,19 @@
+{
+  "policy_id": "Diabetes_Screening",
+  "frequency_limit_months": 6,
+  "target_hcpcs_codes": ["82947", "82950", "82951", "83036"],
+  "age_min": null,
+  "age_max": null,
+  "eligible_conditions": [
+    "Hypertension",
+    "Dyslipidemia (abnormal cholesterol or triglycerides)",
+    "Obesity (BMI >= 30)",
+    "Prior impaired fasting glucose or glucose intolerance",
+    "Overweight (BMI 25-30) plus family history of diabetes",
+    "Overweight (BMI 25-30) plus age 65 or older",
+    "Overweight (BMI 25-30) plus history of gestational diabetes or baby > 9 pounds"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [],
+  "citations": []
+}

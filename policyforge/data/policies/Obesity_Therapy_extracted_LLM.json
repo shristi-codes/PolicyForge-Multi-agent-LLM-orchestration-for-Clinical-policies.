@@ -1,0 +1,25 @@
+{
+  "policy_id": "Obesity_Therapy",
+  "frequency_limit_months": 12,
+  "target_hcpcs_codes": [
+    "G0447",
+    "G0473"
+  ],
+  "age_min": null,
+  "age_max": null,
+  "eligible_conditions": [
+    "Obesity defined as BMI \u2265 30 kg/m\u00b2",
+    "Competent and alert at the time of counseling",
+    "Counseling furnished by a qualified primary care physician or other primary care practitioner in a primary care setting"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [
+    "Beneficiaries who do not achieve a reduction of at least 3 kg during the first 6 months (no additional sessions beyond 12 months)",
+    "Services provided outside a primary care setting",
+    "Services provided by non-qualified primary care practitioners"
+  ],
+  "citations": [
+    "NCD 210.12 - Intensive Behavioral Therapy for Obesity",
+    "U.S. Preventive Services Task Force (USPSTF) Grade B recommendation for obesity screening"
+  ]
+}

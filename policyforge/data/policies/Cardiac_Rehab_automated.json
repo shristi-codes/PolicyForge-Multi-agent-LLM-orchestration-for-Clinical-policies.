@@ -1,0 +1,34 @@
+{
+  "policy_id": "Cardiac_Rehab",
+  "frequency_limit_months": 9,
+  "frequency_citation": null,
+  "target_hcpcs_codes": [
+    "93797",
+    "93798"
+  ],
+  "hcpcs_citation": null,
+  "age_min": null,
+  "age_max": null,
+  "age_citation": null,
+  "eligible_conditions": [
+    "An acute myocardial infarction within the preceding 12 months",
+    "A coronary artery bypass surgery",
+    "Current stable angina pectoris",
+    "Heart valve repair or replacement",
+    "Percutaneous transluminal coronary angioplasty (PTCA) or coronary stenting",
+    "A heart or heart-lung transplant",
+    "Stable, chronic heart failure defined as patients with left ventricular ejection fraction of 35 percent or less AND New York Heart Association (NYHA) class II to IV symptoms AND despite being on optimal heart failure therapy for at least 6 weeks",
+    "Other cardiac conditions as specified through a national coverage determination (NCD)"
+  ],
+  "conditions_citation": null,
+  "eligible_icd10_diagnoses": [],
+  "icd10_citation": null,
+  "exclusions": [
+    "Sessions exceeding the frequency limitations",
+    "Services provided in non-approved settings",
+    "Programs that do not include all required components",
+    "Programs not supervised by qualified physicians"
+  ],
+  "exclusions_citation": null,
+  "citations": []
+}

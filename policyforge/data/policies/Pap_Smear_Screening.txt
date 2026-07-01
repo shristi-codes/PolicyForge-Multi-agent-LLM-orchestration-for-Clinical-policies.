@@ -1,0 +1,20 @@
+Screening Pap Tests and Pelvic Examinations
+
+HCPCS Codes: G0123, G0124, G0141, G0143, G0144, G0145, G0147, G0148, P3000, P3001, Q0091
+
+Who Is Covered:
+All women who have attained age 18, or who have been sexually active regardless of age
+
+Frequency:
+● Screening Pap tests are covered every 24 months (for women at normal risk)
+● Screening Pap tests are covered every 12 months for women at high risk of developing cervical or vaginal cancer, or women of childbearing age who have had an abnormal Pap test during the past 3 years
+
+High-Risk Criteria:
+- Women with a history of sexually transmitted disease
+- Women with fewer than 3 negative Pap tests in the previous 7 years
+- Women of childbearing age with an abnormal Pap test in the past 3 years
+
+ICD-10 Codes: Z01.411, Z01.419, Z12.72, Z12.73
+
+Coverage Details:
+Includes Pap smear collection, preparation, screening, and interpretation. Pelvic examination covered with Pap test. No copayment for screening services.

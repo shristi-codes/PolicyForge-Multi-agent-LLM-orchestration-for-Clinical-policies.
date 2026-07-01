@@ -1,0 +1,24 @@
+{
+  "policy_id": "Cardiovascular",
+  "frequency_limit_months": 60,
+  "target_hcpcs_codes": [
+    "80061",
+    "82465",
+    "83718",
+    "84478"
+  ],
+  "age_min": null,
+  "age_max": null,
+  "eligible_conditions": [
+    "Early detection of cardiovascular disease in asymptomatic individuals"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [
+    "Individuals with apparent signs or symptoms of cardiovascular disease",
+    "Individuals who had the screening tests paid for by Medicare within the preceding 59 months"
+  ],
+  "citations": [
+    "NCD - Cardiovascular Disease Screening Tests",
+    "42 CFR \u00a7 410.17"
+  ]
+}

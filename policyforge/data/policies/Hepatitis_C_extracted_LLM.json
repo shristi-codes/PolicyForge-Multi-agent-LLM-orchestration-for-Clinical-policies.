@@ -1,0 +1,37 @@
+{
+  "policy_id": "Hepatitis_C",
+  "frequency_limit_months": null,
+  "target_hcpcs_codes": [
+    "G0567"
+  ],
+  "age_min": null,
+  "age_max": null,
+  "eligible_conditions": [
+    "Current or past history of illicit injection drug use",
+    "History of blood transfusion before 1992",
+    "Born between 1945 and 1965 (one-time screening)"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [
+    "Screening more than once for non-high-risk individuals born between 1945 and 1965",
+    "Screening for individuals not meeting high-risk criteria or birth year range",
+    "Tests not ordered by a primary care physician or practitioner in a primary care setting",
+    "Tests not performed by an eligible Medicare provider",
+    "Tests not FDA-approved/cleared or not compliant with CLIA regulations"
+  ],
+  "citations": [
+    {
+      "source": "NCD 210.13",
+      "title": "Screening for Hepatitis C Virus (HCV) in Adults",
+      "effective_date": "2014-06-02"
+    },
+    {
+      "source": "USPSTF",
+      "title": "Grade B Recommendations for HCV Screening"
+    }
+  ],
+  "notes": {
+    "high_risk_frequency": "Annual (12 months)",
+    "non_high_risk_frequency": "One-time"
+  }
+}

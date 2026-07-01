@@ -1,0 +1,80 @@
+{
+  "policies": [
+    {
+      "policy_id": "NCD_150.3",
+      "policy_name": "Bone Mass Measurements",
+      "gold_criteria": {
+        "frequency_limit_months": 23,
+        "frequency_citation": {
+          "text": "Medicare pays for a screening BMM once every 2 years (at least 23 months have passed since the month the last covered BMM was performed).",
+          "section": "80.5.5 - Frequency Standards",
+          "start_char": 15063,
+          "end_char": 15205,
+          "confidence": 1.0
+        },
+        "target_hcpcs_codes": ["77080", "77081"],
+        "hcpcs_citation": {
+          "text": "HCPCS procedure codes for bone mass measurement",
+          "section": "Indications Limitations",
+          "note": "Codes mentioned in CMS coding guidelines, not explicit in main policy text",
+          "confidence": 0.9
+        },
+        "age_min": null,
+        "age_max": null,
+        "age_citation": null,
+        "eligible_conditions": [
+          "Estrogen-deficient women at clinical risk for osteoporosis",
+          "Individuals with vertebral abnormalities indicative of osteoporosis/osteopenia/fracture",
+          "Individuals receiving/expecting glucocorticoid therapy ≥5mg prednisone/day for >3 months",
+          "Individuals with primary hyperparathyroidism",
+          "Individuals being monitored for FDA-approved osteoporosis drug therapy response"
+        ],
+        "conditions_citation": {
+          "text": "To be covered, a beneficiary must meet at least one of the five conditions listed below: 1. A woman who has been determined by the physician or qualified nonphysician practitioner treating her to be estrogen-deficient...",
+          "section": "80.5.6 - Beneficiaries Who May be Covered",
+          "start_char": 16145,
+          "end_char": 17580,
+          "confidence": 1.0
+        },
+        "exclusions": [
+          "Single photon absorptiometry (effective January 1, 2007)",
+          "Dual photon absorptiometry (established in 1983)"
+        ],
+        "exclusions_citation": {
+          "text": "The following BMMs are noncovered under Medicare because they are not considered reasonable and necessary under section 1862(a)(1)(A) of the Act. • Single photon absorptiometry (effective January 1, 2007). • Dual photon absorptiometry (established in 1983).",
+          "section": "80.5.7 - Noncovered BMMs",
+          "start_char": 17697,
+          "end_char": 17957,
+          "confidence": 1.0
+        },
+        "special_rules": [
+          "More frequent BMMs allowed when medically necessary (e.g., monitoring glucocorticoid therapy)",
+          "Confirmatory BMM must use dual-energy x-ray absorptiometry if initial was not DEXA",
+          "Monitoring drug therapy response must use DEXA (axial skeleton)"
+        ]
+      },
+      "gold_compiled_edit": {
+        "expected_annual_frequency": 0.5217,
+        "threshold_multiplier": 1.5,
+        "threshold": 0.7826,
+        "filter_logic": "HCPCS_Cd IN ('77080', '77081') AND Tot_Benes >= 11 AND (Tot_Srvcs / Tot_Benes) > 0.7826"
+      },
+      "validation_notes": {
+        "frequency_interpretation": "Policy says 'once every 2 years (at least 23 months)'. We interpret this as 23-month minimum interval, which translates to ~0.52 services/beneficiary/year.",
+        "threshold_rationale": "1.5x multiplier provides buffer for legitimate variation while catching outliers",
+        "hcpcs_source": "HCPCS codes 77080/77081 are standard for bone density measurement but not explicitly listed in policy text - sourced from CMS coding guidelines",
+        "limitations": [
+          "Provider-level utilization is aggregated - cannot detect per-beneficiary violations",
+          "Cannot verify eligible conditions (estrogen-deficient, etc.) from claims data alone",
+          "Does not account for 'medically necessary' exceptions"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "annotator": "PolicyForge Development Team",
+    "annotation_date": "2026-07-01",
+    "methodology": "Manual extraction from official CMS NCD text with character-level citation tracking",
+    "version": "1.0"
+  }
+}

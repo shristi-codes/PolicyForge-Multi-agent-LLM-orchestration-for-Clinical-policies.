@@ -1,0 +1,22 @@
+{
+  "policy_id": "Depression_Screening",
+  "frequency_limit_months": 12,
+  "target_hcpcs_codes": [
+    "G0444"
+  ],
+  "age_min": null,
+  "age_max": null,
+  "eligible_conditions": [
+    "Depression screening for Medicare beneficiaries in primary care settings with staff-assisted depression care supports"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [
+    "Treatment options for depression",
+    "Diseases, complications, or chronic conditions resulting from depression",
+    "Therapeutic interventions such as pharmacotherapy, combination therapy (counseling and medications), or other interventions for depression"
+  ],
+  "citations": [
+    "NCD 210.9 - Screening for Depression in Adults",
+    "U.S. Preventive Services Task Force (USPSTF) Grade B recommendation"
+  ]
+}

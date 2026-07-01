@@ -1,0 +1,35 @@
+{
+  "policy_id": "HIV_Screening",
+  "frequency_limit_months": 11,
+  "target_hcpcs_codes": [
+    "G0432",
+    "G0433",
+    "G0435",
+    "G0475"
+  ],
+  "age_min": 15,
+  "age_max": 65,
+  "eligible_conditions": [
+    "Adolescents and adults aged 15-65 without regard to perceived risk (annual screening)",
+    "Adolescents younger than 15 and adults older than 65 at increased risk for HIV infection (annual screening)",
+    "Pregnant Medicare beneficiaries (up to three screenings: at diagnosis of pregnancy, third trimester, and at labor)"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [
+    "Screenings for individuals outside the specified age ranges without increased risk",
+    "More than one annual screening for non-pregnant beneficiaries unless at increased risk",
+    "More than three screenings for pregnant beneficiaries",
+    "Screenings not ordered by a physician or practitioner within a healthcare setting",
+    "Screenings not performed by an eligible Medicare provider",
+    "Tests not FDA-approved or not compliant with CLIA regulations"
+  ],
+  "citations": [
+    {
+      "source": "NCD 210.7 - Screening for Human Immunodeficiency Virus (HIV) Infection",
+      "effective_date": "2015-04-13"
+    },
+    {
+      "source": "USPSTF Grade A Recommendation for HIV Screening"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"policy_id": "NCD_190.24", "frequency_limit_months": 12, "target_hcpcs_codes": ["G0117", "G0118"], "age_min": null, "age_max": null, "eligible_conditions": ["High-risk beneficiaries for glaucoma"], "eligible_icd10_diagnoses": [], "exclusions": [], "citations": []}

@@ -1,0 +1,1 @@
+{"policy_id": "NCD_220.4", "frequency_limit_months": 12, "target_hcpcs_codes": ["77067"], "age_min": 40, "age_max": null, "eligible_conditions": ["Women age 40 and older"], "eligible_icd10_diagnoses": [], "exclusions": [], "citations": []}

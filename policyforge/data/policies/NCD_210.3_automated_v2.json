@@ -1,0 +1,21 @@
+{
+  "policy_id": "NCD_210.3",
+  "frequency_limit_months": 12,
+  "frequency_citation": null,
+  "target_hcpcs_codes": [],
+  "hcpcs_citation": null,
+  "age_min": 45,
+  "age_max": null,
+  "age_citation": null,
+  "eligible_conditions": [
+    "Asymptomatic individuals (no signs or symptoms of colorectal disease including but not limited to lower gastrointestinal pain, blood in stool, positive guaiac fecal occult blood test)"
+  ],
+  "conditions_citation": null,
+  "eligible_icd10_diagnoses": [],
+  "icd10_citation": null,
+  "exclusions": [
+    "Signs or symptoms of colorectal disease including but not limited to lower gastrointestinal pain, blood in stool, positive guaiac fecal occult blood test"
+  ],
+  "exclusions_citation": null,
+  "citations": []
+}

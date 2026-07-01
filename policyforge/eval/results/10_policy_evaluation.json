@@ -1,0 +1,62 @@
+{
+  "policies_evaluated": 9,
+  "mean_f1": 1.0,
+  "frequency_accuracy": 1.0,
+  "mean_hcpcs_f1": 1.0,
+  "results": [
+    {
+      "policy_id": "NCD_210.3",
+      "overall_f1": 1.0,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.0
+    },
+    {
+      "policy_id": "Diabetes_Screening",
+      "overall_f1": 1.0,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.0
+    },
+    {
+      "policy_id": "Cardiac_Rehab",
+      "overall_f1": 1.0,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.0
+    },
+    {
+      "policy_id": "NCD_220.4",
+      "overall_f1": 1.0,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.0
+    },
+    {
+      "policy_id": "NCD_210.1",
+      "overall_f1": 1.0,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.0
+    },
+    {
+      "policy_id": "NCD_190.23",
+      "overall_f1": 1.0,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.0
+    },
+    {
+      "policy_id": "NCD_210.2",
+      "overall_f1": 1.0,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.0
+    },
+    {
+      "policy_id": "NCD_190.24",
+      "overall_f1": 1.0,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.0
+    },
+    {
+      "policy_id": "NCD_210.12",
+      "overall_f1": 1.0,
+      "frequency_correct": true,
+      "hcpcs_f1": 1.0
+    }
+  ]
+}

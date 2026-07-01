@@ -1,0 +1,64 @@
+{
+  "policies": [
+    {
+      "policy_id": "NCD_220.4",
+      "policy_name": "Mammography Screening",
+      "gold_criteria": {
+        "frequency_limit_months": 12,
+        "target_hcpcs_codes": ["77067"],
+        "age_min": 40,
+        "age_max": null
+      }
+    },
+    {
+      "policy_id": "NCD_210.1",
+      "policy_name": "Prostate Cancer Screening (PSA)",
+      "gold_criteria": {
+        "frequency_limit_months": 12,
+        "target_hcpcs_codes": ["G0103", "G0102"],
+        "age_min": 50,
+        "age_max": null
+      }
+    },
+    {
+      "policy_id": "NCD_190.23",
+      "policy_name": "Cardiovascular Disease Screening",
+      "gold_criteria": {
+        "frequency_limit_months": 60,
+        "target_hcpcs_codes": ["80061", "82465", "83718", "84478"],
+        "age_min": null,
+        "age_max": null
+      }
+    },
+    {
+      "policy_id": "NCD_210.2",
+      "policy_name": "Screening Pap Smears and Pelvic Examinations",
+      "gold_criteria": {
+        "frequency_limit_months": 24,
+        "target_hcpcs_codes": ["Q0091", "G0101"],
+        "age_min": null,
+        "age_max": null
+      }
+    },
+    {
+      "policy_id": "NCD_190.24",
+      "policy_name": "Glaucoma Screening",
+      "gold_criteria": {
+        "frequency_limit_months": 12,
+        "target_hcpcs_codes": ["G0117", "G0118"],
+        "age_min": null,
+        "age_max": null
+      }
+    },
+    {
+      "policy_id": "NCD_210.12",
+      "policy_name": "Hepatitis B Screening",
+      "gold_criteria": {
+        "frequency_limit_months": 12,
+        "target_hcpcs_codes": ["G0499"],
+        "age_min": null,
+        "age_max": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "policy_id": "NCD_210.3",
+  "target_hcpcs_codes": [
+    "G0104",
+    "G0105",
+    "G0106",
+    "G0121",
+    "G0122",
+    "G0328",
+    "82270",
+    "82272",
+    "82274"
+  ],
+  "frequency_limit_months": {
+    "fecal_occult_blood_test": 12,
+    "multi_target_stool_dna_test": 36,
+    "blood_based_biomarker_test": 36
+  }
+}

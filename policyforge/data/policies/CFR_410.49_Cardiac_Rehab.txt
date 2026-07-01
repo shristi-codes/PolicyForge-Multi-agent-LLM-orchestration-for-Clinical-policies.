@@ -1,0 +1,77 @@
+Cardiac Rehabilitation Programs
+42 CFR § 410.49
+
+Effective Date: February 18, 2014 (chronic heart failure added)
+
+A. General
+
+Medicare Part B covers cardiac rehabilitation (CR) and intensive cardiac rehabilitation (ICR) program services for beneficiaries who meet eligibility criteria and are referred by their treating physician.
+
+B. Covered Conditions
+
+Medicare Part B covers cardiac rehabilitation and intensive cardiac rehabilitation for beneficiaries who have experienced one or more of the following:
+
+1. An acute myocardial infarction within the preceding 12 months
+2. A coronary artery bypass surgery
+3. Current stable angina pectoris
+4. Heart valve repair or replacement
+5. Percutaneous transluminal coronary angioplasty (PTCA) or coronary stenting
+6. A heart or heart-lung transplant
+7. Stable, chronic heart failure defined as patients with:
+   - Left ventricular ejection fraction of 35 percent or less AND
+   - New York Heart Association (NYHA) class II to IV symptoms AND
+   - Despite being on optimal heart failure therapy for at least 6 weeks
+   (Effective on or after February 18, 2014 for CR; February 9, 2018 for ICR)
+8. Other cardiac conditions as specified through a national coverage determination (NCD)
+
+C. Required Program Components
+
+Cardiac rehabilitation and intensive cardiac rehabilitation must include ALL of the following:
+
+1. Physician-prescribed exercise each day cardiac rehabilitation items and services are furnished
+2. Cardiac risk factor modification, including education, counseling, and behavioral intervention
+3. Psychosocial assessment
+4. Outcomes assessment
+
+D. Coverage Settings
+
+Medicare Part B pays for cardiac rehabilitation and intensive cardiac rehabilitation in the following settings:
+
+1. Physician's office
+2. Hospital outpatient department
+3. Critical access hospital (outpatient)
+4. Other settings as determined by the Secretary
+
+E. Frequency Limitations
+
+1. Cardiac Rehabilitation (Standard):
+   - Maximum of 2 one-hour sessions per day
+   - Up to 36 sessions over up to 36 weeks
+   - Option for additional 36 sessions over extended period if approved by Medicare Administrative Contractor
+
+2. Intensive Cardiac Rehabilitation:
+   - Up to 72 one-hour sessions
+   - Maximum of 6 sessions per day
+   - Over a period of up to 18 weeks
+
+F. Physician Requirements
+
+The physician responsible for the cardiac rehabilitation program must:
+
+1. Be trained in the management of individuals with cardiac pathophysiology
+2. Have clinical expertise with emergency management of acutely ill cardiac patients
+3. Be licensed to practice medicine in the State in which the cardiac rehabilitation program is offered
+
+G. Coverage Codes
+
+Covered HCPCS/CPT codes include:
+
+- 93797: Physician or other qualified health care professional services for cardiac rehabilitation
+- 93798: Physician or other qualified health care professional services for cardiac rehabilitation; with continuous ECG monitoring
+
+H. Non-Covered Services
+
+- Sessions exceeding the frequency limitations
+- Services provided in non-approved settings
+- Programs that do not include all required components
+- Programs not supervised by qualified physicians

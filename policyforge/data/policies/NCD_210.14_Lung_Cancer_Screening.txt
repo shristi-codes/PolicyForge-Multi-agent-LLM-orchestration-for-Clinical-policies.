@@ -1,0 +1,19 @@
+NCD 210.14 - Lung Cancer Screening with Low Dose Computed Tomography (LDCT)
+
+Effective Date: February 10, 2022
+
+Lung cancer is the third most common cancer and the leading cause of cancer deaths in the United States. Under the Medicare Modernization Act, CMS has the authority to add coverage of "additional preventive services" if certain statutory requirements are met.
+
+Effective for claims with dates of service on or after February 10, 2022, CMS has determined that the evidence is sufficient to cover, under Medicare Part B, a lung cancer screening counseling and shared decision-making visit, and for appropriate beneficiaries, annual screening for lung cancer with LDCT, as an additional preventive service benefit under the Medicare program, only if all of the following eligibility criteria are met:
+
+Eligibility Criteria:
+- Age 50-77 years
+- Asymptomatic (no signs or symptoms of lung cancer)
+- Tobacco smoking history of at least 20 pack-years (one pack-year = smoking one pack per day for one year; 1 pack = 20 cigarettes)
+- Current smoker or one who has quit smoking within the last 15 years
+- Receive an order for lung cancer screening with LDCT
+
+HCPCS Codes: G0296, G0297 (LDCT lung cancer screening)
+Frequency: Annual
+Age Restrictions: 50-77 years
+Smoking History Required: At least 20 pack-years

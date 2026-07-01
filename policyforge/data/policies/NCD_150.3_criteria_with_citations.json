@@ -1,0 +1,53 @@
+{
+  "policy_id": "NCD_150.3",
+  "frequency_limit_months": 23,
+  "frequency_citation": {
+    "text": "Effective: 01-01-07, Implementation: 07-02-07) \n \nMedicare pays for a screening BMM once every 2 years (at least 23 months have passed \nsince the month the last covered BMM was perform",
+    "start_char": 14949,
+    "end_char": 15133,
+    "section": "80.5.5 - Frequency Standards ",
+    "confidence": 1.0
+  },
+  "target_hcpcs_codes": [
+    "77080",
+    "77081"
+  ],
+  "hcpcs_citation": {
+    "text": "HCPCS codes 77080 and 77081 are standard procedure codes for bone mass measurement",
+    "start_char": 0,
+    "end_char": 0,
+    "section": "CMS Coding Guidelines (external reference)",
+    "confidence": 0.9
+  },
+  "age_min": null,
+  "age_max": null,
+  "age_citation": null,
+  "eligible_conditions": [
+    "Estrogen-deficient women at clinical risk for osteoporosis",
+    "Individuals with vertebral abnormalities indicative of osteoporosis/osteopenia/fracture",
+    "Individuals receiving/expecting glucocorticoid therapy \u22655mg prednisone/day for >3 months",
+    "Individuals with primary hyperparathyroidism",
+    "Individuals being monitored for FDA-approved osteoporosis drug therapy response"
+  ],
+  "conditions_citation": {
+    "text": "Effective: 01-01-07, Implementation: 07-02-07) \n \nTo be covered, a beneficiary must meet at least one of the five conditions listed below: \n \n1. A woman who has been determined by the phy",
+    "start_char": 15548,
+    "end_char": 15735,
+    "section": "80.5.6 - Beneficiaries Who May be Covered ",
+    "confidence": 1.0
+  },
+  "eligible_icd10_diagnoses": [],
+  "icd10_citation": null,
+  "exclusions": [
+    "Single photon absorptiometry (effective January 1, 2007)",
+    "Dual photon absorptiometry (established in 1983)"
+  ],
+  "exclusions_citation": {
+    "text": "otopic, or other procedure that meets all of the \nfollowing conditions: \n \n\u2022 Is performed to identify bone mass, detect bone loss, or determine bone \nquality. \n \n\u2022 Is performed with either a bone densitome",
+    "start_char": 12659,
+    "end_char": 12864,
+    "section": "80.5.3 - Definition ",
+    "confidence": 1.0
+  },
+  "citations": []
+}

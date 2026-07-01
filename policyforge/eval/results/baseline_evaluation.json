@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-07-01T10:59:38.960012",
+  "extraction": {
+    "policy_id": "NCD_150.3",
+    "frequency_correct": true,
+    "frequency_gold": 23,
+    "frequency_predicted": 23,
+    "hcpcs_precision": 1.0,
+    "hcpcs_recall": 1.0,
+    "hcpcs_f1": 1.0,
+    "hcpcs_gold": [
+      "77080",
+      "77081"
+    ],
+    "hcpcs_predicted": [
+      "77080",
+      "77081"
+    ],
+    "age_min_correct": true,
+    "age_max_correct": true,
+    "conditions_precision": 0.4,
+    "conditions_recall": 0.4,
+    "conditions_f1": 0.4000000000000001,
+    "conditions_gold_count": 5,
+    "conditions_predicted_count": 5,
+    "exclusions_precision": 0.0,
+    "exclusions_recall": 0.0,
+    "exclusions_f1": 0.0,
+    "citation_grounding_rate": 0.0,
+    "overall_f1": 0.6
+  },
+  "adjudication": {
+    "policy_id": "NCD_150.3",
+    "total_providers_flagged": 21521,
+    "severity_critical": 0,
+    "severity_high": 282,
+    "severity_medium": 318,
+    "severity_low": 20921,
+    "top_k_checked": 0,
+    "top_k_precision": null,
+    "anomaly_score_mean": 1.9457155105155526,
+    "anomaly_score_std": 0.20486783351000015,
+    "anomaly_score_p50": 1.9166666666666667,
+    "anomaly_score_p95": 1.9280415430267062,
+    "anomaly_score_p99": 3.505938383308564
+  },
+  "cost": {
+    "policy_id": "NCD_150.3",
+    "total_input_tokens": 500,
+    "total_output_tokens": 200,
+    "total_cost_usd": 0.0032500000000000003,
+    "retrieval_time_ms": 0.0,
+    "extraction_time_ms": 50.0,
+    "compilation_time_ms": 0.1728534698486328,
+    "adjudication_time_ms": 56.50019645690918,
+    "total_time_ms": 106.67304992675781,
+    "cost_per_policy_usd": 0.0032500000000000003,
+    "time_per_policy_s": 0.10667304992675782
+  },
+  "model_name": "gpt-4o-2024-08-06",
+  "use_rag": true,
+  "use_critic": true,
+  "threshold_multiplier": 1.5
+}

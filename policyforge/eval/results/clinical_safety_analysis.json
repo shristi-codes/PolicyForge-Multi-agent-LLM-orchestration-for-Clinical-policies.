@@ -1,0 +1,51 @@
+{
+  "analysis_date": "2026-07-01",
+  "method": "Weighted F1 by clinical severity",
+  "simple_mean_f1": 0.982,
+  "weighted_mean_f1": 0.9641492537313433,
+  "tier_performance": {
+    "tier_1_critical": {
+      "mean_f1": 0.93325,
+      "safe": false,
+      "policies": [
+        "NCD_150.3",
+        "NCD_210.3",
+        "NCD_220.4",
+        "Pap_Smear"
+      ]
+    },
+    "tier_2_important": {
+      "mean_f1": 1.0,
+      "safe": true,
+      "policies": [
+        "Diabetes_Screening",
+        "Cardiac_Rehab",
+        "NCD_210.1",
+        "Cardiovascular",
+        "Hepatitis_C",
+        "AAA_Screening",
+        "HIV_Screening"
+      ]
+    },
+    "tier_3_routine": {
+      "mean_f1": 1.0,
+      "safe": true,
+      "policies": [
+        "Glaucoma"
+      ]
+    }
+  },
+  "safety_analysis": {
+    "recommendation": "Deploy for TRIAGE ONLY with mandatory human review",
+    "risk_level": "MEDIUM",
+    "critical_failures": [],
+    "requires_human_review": [
+      "NCD_150.3",
+      "NCD_210.3"
+    ],
+    "safe_for_automation": [
+      "Glaucoma"
+    ]
+  },
+  "conclusion": "System NOT safe for unsupervised automation due to Tier 1 failures. Deploy for triage only with mandatory human review."
+}

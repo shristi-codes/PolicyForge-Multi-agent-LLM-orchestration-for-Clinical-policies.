@@ -1,0 +1,8 @@
+{
+  "policy_id": "AAA_Screening",
+  "frequency_limit_months": null,
+  "target_hcpcs_codes": [
+    "76706",
+    "G0389"
+  ]
+}

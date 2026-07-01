@@ -1,0 +1,26 @@
+{
+  "policy_id": "Lung_Cancer",
+  "frequency_limit_months": 12,
+  "target_hcpcs_codes": [
+    "G0296",
+    "G0297"
+  ],
+  "age_min": 50,
+  "age_max": 77,
+  "eligible_conditions": [
+    "Asymptomatic individuals with no signs or symptoms of lung cancer",
+    "Tobacco smoking history of at least 20 pack-years",
+    "Current smoker or one who has quit smoking within the last 15 years"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [
+    "Individuals outside the age range of 50-77 years",
+    "Individuals with signs or symptoms of lung cancer",
+    "Individuals with a tobacco smoking history of less than 20 pack-years",
+    "Individuals who quit smoking more than 15 years ago",
+    "Screening without an order for lung cancer screening with LDCT"
+  ],
+  "citations": [
+    "NCD 210.14 - Lung Cancer Screening with Low Dose Computed Tomography (LDCT)"
+  ]
+}

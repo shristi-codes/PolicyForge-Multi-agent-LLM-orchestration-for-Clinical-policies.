@@ -1,0 +1,26 @@
+{
+  "policies_compared": 3,
+  "results": [
+    {
+      "policy_id": "NCD_210.3",
+      "manual_f1": 0.675,
+      "automated_f1": 0.25,
+      "ratio": 0.37037037037037035
+    },
+    {
+      "policy_id": "Diabetes_Screening",
+      "manual_f1": 0.8863636363636364,
+      "automated_f1": 0.24358974358974356,
+      "ratio": 0.2748191978961209
+    },
+    {
+      "policy_id": "Cardiac_Rehab",
+      "manual_f1": 0.9318181818181819,
+      "automated_f1": 0.3333333333333333,
+      "ratio": 0.3577235772357723
+    }
+  ],
+  "avg_manual_f1": 0.831060606060606,
+  "avg_automated_f1": 0.2756410256410256,
+  "automated_ratio": 0.33430438183408784
+}

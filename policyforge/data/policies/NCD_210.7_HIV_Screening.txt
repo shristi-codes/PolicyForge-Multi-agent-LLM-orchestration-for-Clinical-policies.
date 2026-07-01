@@ -1,0 +1,27 @@
+NCD 210.7 - Screening for Human Immunodeficiency Virus (HIV) Infection
+
+Effective Date: April 13, 2015
+
+Effective for claims with dates of service on and after April 13, 2015, CMS has determined that the evidence is adequate to conclude that screening for HIV infection for all individuals between the ages of 15 and 65 years, as recommended with a Grade of A by the USPSTF, is reasonable and necessary for early detection of HIV and is appropriate for individuals entitled to benefits under Part A or enrolled under Part B.
+
+CMS shall cover screening for HIV with the appropriate U.S. Food and Drug Administration (FDA)-approved laboratory tests and point-of-care tests, used consistent with FDA-approved labeling and in compliance with the Clinical Laboratory Improvement Act (CLIA) regulations, when ordered by the beneficiary's physician or practitioner within the context of a healthcare setting and performed by an eligible Medicare provider for these services, for beneficiaries who meet one of the following conditions:
+
+1. Except for pregnant Medicare beneficiaries addressed below, a maximum of one annual voluntary screening for all adolescents and adults between the age of 15 and 65, without regard to perceived risk.
+
+2. Except for pregnant Medicare beneficiaries addressed below, a maximum of one annual voluntary screening for adolescents younger than 15 and adults older than 65 who are at increased risk for HIV infection. Increased risk is defined as follows:
+   - Men who have sex with men
+   - Men and women having unprotected vaginal or anal intercourse
+   - Past or present injection drug users
+   - Men and women who exchange sex for money or drugs
+   - Anyone whose past or present sexual partners were HIV-infected, bisexual, or injection drug users
+   - Anyone being treated for sexually transmitted diseases
+   - Anyone with a history of blood transfusion between 1978 and 1985
+
+3. A maximum of three voluntary HIV screenings of pregnant Medicare beneficiaries:
+   (1) when the diagnosis of pregnancy is known
+   (2) during the third trimester
+   (3) at labor, if ordered by the woman's clinician
+
+HCPCS Codes: G0432, G0433, G0435, G0475
+Frequency: Annual (at least 11 months between screenings); 3x during pregnancy
+Age Restrictions: 15-65 (universal); outside this range for high-risk only

@@ -1,0 +1,9 @@
+{
+  "policy_id": "Diabetes_Screening",
+  "target_hcpcs_codes": [
+    "82947",
+    "83036"
+  ],
+  "frequency_limit_months": 12,
+  "frequency_limit_tests": 2
+}

@@ -1,0 +1,52 @@
+{
+  "policy_id": "NCD_150.3",
+  "frequency_limit_months": 24,
+  "target_hcpcs_codes": [
+    "76977",
+    "77078",
+    "77079",
+    "77080",
+    "77081",
+    "77085",
+    "77086",
+    "G0130"
+  ],
+  "age_min": 50,
+  "age_max": null,
+  "eligible_conditions": [
+    "Estrogen-deficient women at clinical risk for osteoporosis",
+    "Individuals with vertebral abnormalities",
+    "Individuals receiving long-term glucocorticoid (steroid) therapy",
+    "Individuals with primary hyperparathyroidism",
+    "Individuals being monitored to assess response to an FDA-approved osteoporosis drug therapy"
+  ],
+  "eligible_icd10_diagnoses": [
+    "M80.0*",
+    "M80.8*",
+    "M81.0",
+    "M81.6",
+    "M81.8",
+    "M85.8*",
+    "E21.0",
+    "E21.2",
+    "E21.3",
+    "Z79.52"
+  ],
+  "exclusions": [
+    "Screening for osteoporosis in men without a history of fractures or other risk factors",
+    "Repeat measurements more frequently than every 23 months unless medically necessary",
+    "Bone mass measurements for conditions not listed in eligible conditions"
+  ],
+  "citations": [
+    {
+      "manual": "Medicare Benefit Policy Manual",
+      "chapter": 15,
+      "section": "80.5"
+    },
+    {
+      "manual": "Medicare Claims Processing Manual",
+      "chapter": 13,
+      "section": "140"
+    }
+  ]
+}

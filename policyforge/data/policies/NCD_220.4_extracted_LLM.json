@@ -1,0 +1,25 @@
+{
+  "policy_id": "NCD_220.4",
+  "frequency_limit_months": 11,
+  "target_hcpcs_codes": [
+    "77065",
+    "77066",
+    "77067",
+    "77063"
+  ],
+  "age_min": 35,
+  "age_max": null,
+  "eligible_conditions": [
+    "Signs and symptoms of breast disease",
+    "Personal history of breast cancer",
+    "Personal history of biopsy-proven benign breast disease",
+    "Asymptomatic women over age 39 for screening purposes"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [
+    "Screening mammography for women under age 35",
+    "More than one screening mammography for women ages 35-39",
+    "Screening mammography performed before 11 months have passed since the last screening for women over age 39"
+  ],
+  "citations": []
+}

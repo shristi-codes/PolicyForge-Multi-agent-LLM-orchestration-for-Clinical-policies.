@@ -1,0 +1,16 @@
+NCD 210.9 - Screening for Depression in Adults
+
+Effective Date: October 14, 2011
+
+Based upon authority to cover "additional preventive services" for Medicare beneficiaries, CMS initiated a new national coverage analysis on screening for depression in adults. Screening for depression in adults is recommended with a grade of B by the U.S. Preventive Services Task Force (USPSTF) and is appropriate for individuals entitled to benefits under Part A and Part B.
+
+Effective for claims with dates of service on or after October 14, 2011, CMS will cover annual screening for depression for Medicare beneficiaries in primary care settings that have staff-assisted depression care supports in place to assure accurate diagnosis, effective treatment, and follow-up. Various screening tools are available for screening for depression. CMS does not identify specific depression screening tools. Rather, the decision to use a specific tool is at the discretion of the clinician in the primary care setting.
+
+Coverage is limited to screening services and does not include treatment options for depression or any diseases, complications, or chronic conditions resulting from depression, nor does it address therapeutic interventions such as pharmacotherapy, combination therapy (counseling and medications), or other interventions for depression.
+
+Effective for claims with dates of service on or after October 14, 2011, CMS will cover annual screening up to 15 minutes for Medicare beneficiaries when staff-assisted depression care supports are in place to assure accurate diagnosis, effective treatment, and follow-up. At a minimum level, staff-assisted supports consist of clinical staff (e.g., nurse, physician assistant) in the primary care setting who can advise the physician of screening results and who can facilitate and coordinate referrals to mental health treatment.
+
+HCPCS Code: G0444
+Frequency: Annual (once per 12 months)
+Time Limit: Up to 15 minutes
+Setting Requirement: Primary care settings with staff-assisted depression care supports

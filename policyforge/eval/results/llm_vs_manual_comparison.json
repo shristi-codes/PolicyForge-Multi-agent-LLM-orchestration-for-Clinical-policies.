@@ -1,0 +1,39 @@
+{
+  "comparison_count": 2,
+  "mean_hcpcs_f1": 1.0,
+  "frequency_accuracy": 0.5,
+  "results": [
+    {
+      "policy_id": "NCD_220.4",
+      "hcpcs_match": true,
+      "hcpcs_f1": 1.0,
+      "freq_match": false,
+      "age_match": false,
+      "llm_hcpcs": [
+        "77063",
+        "77066",
+        "77067",
+        "77065"
+      ],
+      "manual_hcpcs": [
+        "77063",
+        "77066",
+        "77067",
+        "77065"
+      ]
+    },
+    {
+      "policy_id": "NCD_210.1",
+      "hcpcs_match": true,
+      "hcpcs_f1": 1.0,
+      "freq_match": true,
+      "age_match": true,
+      "llm_hcpcs": [
+        "G0103"
+      ],
+      "manual_hcpcs": [
+        "G0103"
+      ]
+    }
+  ]
+}

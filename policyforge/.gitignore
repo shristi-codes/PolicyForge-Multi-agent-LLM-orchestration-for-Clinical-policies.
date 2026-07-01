@@ -1,0 +1,30 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large data files — fetch via scripts/data_pull.py
+data/cms_partb_sample.parquet
+data/leie.csv
+data/ncci_edits/*
+!data/ncci_edits/.gitkeep
+
+# Model / cache artifacts
+data/rag_cache/
+finetune/checkpoints/
+*.bin
+*.safetensors
+
+# Video deliverable (too large for git)
+demo.mp4
+
+# OS / IDE
+.idea/
+.vscode/
+.DS_Store
+*.swp

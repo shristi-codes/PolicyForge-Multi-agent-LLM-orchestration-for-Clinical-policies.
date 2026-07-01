@@ -1,0 +1,19 @@
+{
+  "policy_id": "Cardiac_Rehab",
+  "frequency_limit_months": null,
+  "target_hcpcs_codes": ["93797", "93798"],
+  "age_min": null,
+  "age_max": null,
+  "eligible_conditions": [
+    "Acute myocardial infarction within preceding 12 months",
+    "Coronary artery bypass surgery",
+    "Current stable angina pectoris",
+    "Heart valve repair or replacement",
+    "Percutaneous transluminal coronary angioplasty (PTCA) or coronary stenting",
+    "Heart or heart-lung transplant",
+    "Stable chronic heart failure (LVEF <= 35% and NYHA class II-IV despite 6 weeks optimal therapy)"
+  ],
+  "eligible_icd10_diagnoses": [],
+  "exclusions": [],
+  "citations": []
+}

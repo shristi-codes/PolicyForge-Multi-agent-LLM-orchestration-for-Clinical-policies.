@@ -1,0 +1,19 @@
+NCD - Cardiovascular Disease Screening Tests
+42 CFR § 410.17
+
+Effective Date: January 1, 2005
+
+Definition:
+Cardiovascular screening blood test means:
+(1) A lipid panel consisting of a total cholesterol, HDL cholesterol, and triglyceride. The test is performed after a 12-hour fasting period.
+(2) Other blood tests, previously recommended by the U.S. Preventive Services Task Force (USPSTF), as determined by the Secretary through a national coverage determination process.
+
+General conditions of coverage:
+Medicare Part B covers cardiovascular disease screening tests when ordered by the physician who is treating the beneficiary for the purpose of early detection of cardiovascular disease in individuals without apparent signs or symptoms of cardiovascular disease.
+
+Limitation on coverage:
+Payment may be made for cardiovascular screening tests performed for an asymptomatic individual only if the individual has not had the screening tests paid for by Medicare during the preceding 59 months following the month in which the last cardiovascular screening tests were performed.
+
+HCPCS Codes: 80061, 82465, 83718, 84478
+Frequency: Once every 5 years (59 months)
+Age Restrictions: None

@@ -1,0 +1,33 @@
+{
+  "policy_id": "Diabetes_Screening",
+  "frequency_limit_months": 12,
+  "frequency_citation": null,
+  "target_hcpcs_codes": [
+    "82947",
+    "83036"
+  ],
+  "hcpcs_citation": null,
+  "age_min": null,
+  "age_max": null,
+  "age_citation": null,
+  "eligible_conditions": [
+    "Hypertension",
+    "Dyslipidemia",
+    "Obesity (BMI \u2265 30 kg/m\u00b2)",
+    "Impaired fasting glucose",
+    "Glucose intolerance",
+    "Overweight (BMI > 25 but < 30 kg/m\u00b2)",
+    "Family history of diabetes",
+    "History of gestational diabetes mellitus",
+    "Delivery of a baby weighing more than 9 pounds"
+  ],
+  "conditions_citation": null,
+  "eligible_icd10_diagnoses": [],
+  "icd10_citation": null,
+  "exclusions": [
+    "Tests performed more frequently than two times within a 12-month period unless medically necessary for diagnostic purposes",
+    "Tests performed for diagnostic purposes (not screening)"
+  ],
+  "exclusions_citation": null,
+  "citations": []
+}

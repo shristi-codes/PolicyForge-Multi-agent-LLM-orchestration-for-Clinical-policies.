@@ -1,0 +1,58 @@
+{
+  "policies": [
+    {
+      "policy_id": "NCD_210.3",
+      "policy_name": "Colorectal Cancer Screening Tests",
+      "gold_criteria": {
+        "frequency_limit_months": 12,
+        "target_hcpcs_codes": ["82270", "82274", "G0328", "81528"],
+        "age_min": 45,
+        "age_max": null,
+        "eligible_conditions": [
+          "Average risk individuals age 45 and older",
+          "Asymptomatic (no signs or symptoms of colorectal disease)",
+          "No personal history of adenomatous polyps colorectal cancer or inflammatory bowel disease"
+        ],
+        "exclusions": [
+          "Symptomatic patients (lower GI pain blood in stool)",
+          "Personal history of adenomatous polyps",
+          "Inflammatory bowel disease"
+        ]
+      }
+    },
+    {
+      "policy_id": "Diabetes_Screening",
+      "policy_name": "Diabetes Screening Tests (42 CFR 410.18)",
+      "gold_criteria": {
+        "frequency_limit_months": 6,
+        "target_hcpcs_codes": ["82947", "82950", "82951", "83036"],
+        "age_min": null,
+        "age_max": null,
+        "eligible_conditions": [
+          "Hypertension",
+          "Dyslipidemia",
+          "Obesity (BMI >= 30)",
+          "Prior impaired fasting glucose or glucose intolerance"
+        ],
+        "exclusions": []
+      }
+    },
+    {
+      "policy_id": "Cardiac_Rehab",
+      "policy_name": "Cardiac Rehabilitation Programs (42 CFR 410.49)",
+      "gold_criteria": {
+        "frequency_limit_months": null,
+        "target_hcpcs_codes": ["93797", "93798"],
+        "age_min": null,
+        "age_max": null,
+        "eligible_conditions": [
+          "Acute myocardial infarction within preceding 12 months",
+          "Coronary artery bypass surgery",
+          "Current stable angina pectoris",
+          "Heart valve repair or replacement"
+        ],
+        "exclusions": []
+      }
+    }
+  ]
+}
