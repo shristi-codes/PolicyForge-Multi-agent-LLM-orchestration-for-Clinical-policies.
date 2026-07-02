@@ -331,4 +331,4 @@ File: `scripts/analyze_distribution.py`
 
 ## License
 
-MIT © 2026 Abhishek Kumar
+MIT © 2026 Shristi Kumar
