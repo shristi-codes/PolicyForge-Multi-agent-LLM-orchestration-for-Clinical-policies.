@@ -2,15 +2,15 @@
 
 **Automated Medicare Policy Extraction using Multi-Agent LLM Orchestration**
 
-> Cotiviti Intern Assessment — Topic 3: Content Management in Health Care  
-> July 2026 · Abhishek Kumar
+> Cotiviti Intern Assessment, Topic 3: Content Management in Health Care  
+> July 2026, Abhishek Kumar
 
 ---
 
 ## Overview
 
 PolicyForge converts raw CMS Medicare policy documents (NCDs, LCDs, CFRs) into
-structured, machine-executable billing rules — automatically.
+structured, machine-executable billing rules automatically.
 
 A **6-node LangGraph multi-agent pipeline** ingests policy text, extracts HCPCS
 codes and frequency limits via a Mistral LLM, validates output through a Critic
@@ -37,9 +37,9 @@ utilization dataset.
 
 | Tier | Policies | Mean F1 | Deployment Safety |
 |------|----------|---------|-------------------|
-| **Tier 1 — Critical** (Cancer Screening) | 4 | 93.3% | 🔴 Human review required |
-| **Tier 2 — Important** (CVD / Metabolic) | 7 | 100% | 🟡 Hybrid automation ready |
-| **Tier 3 — Routine** (Behavioral Health) | 4 | 100% | 🟢 Safe for automation |
+| **Tier 1: Critical** (Cancer Screening) | 4 | 93.3% | 🔴 Human review required |
+| **Tier 2: Important** (CVD / Metabolic) | 7 | 100% | 🟡 Hybrid automation ready |
+| **Tier 3: Routine** (Behavioral Health) | 4 | 100% | 🟢 Safe for automation |
 
 > **Key insight:** Simple mean F1 = 98.2% hides the critical 80% F1 gap on
 > NCD 210.3 (colorectal cancer screening). Weighted F1 = 96.4% properly reflects
@@ -147,7 +147,7 @@ policyforge/
 
 ## Quick Start
 
-### 1 — Prerequisites
+### 1: Prerequisites
 
 ```bash
 python 3.11+
@@ -155,7 +155,7 @@ git clone https://github.com/shristi-codes/PolicyForge-Multi-agent-LLM-orchestra
 cd PolicyForge-Multi-agent-LLM-orchestration-for-Clinical-policies.
 ```
 
-### 2 — Install dependencies
+### 2: Install dependencies
 
 ```bash
 python -m venv .venv
@@ -163,7 +163,7 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3 — Configure API key
+### 3: Configure API key
 
 ```bash
 cp .env.example .env
@@ -171,7 +171,7 @@ cp .env.example .env
 # MISTRAL_API_KEY=your_key_here
 ```
 
-### 4 — Run the pipeline end-to-end
+### 4: Run the pipeline end-to-end
 
 ```bash
 # Full 6-node LangGraph pipeline on NCD 150.3 (Bone Mass Measurements)
@@ -184,7 +184,7 @@ python scripts/evaluate_llm_vs_manual.py
 python scripts/clinical_safety_analysis.py
 ```
 
-### 5 — Regenerate deliverables
+### 5: Regenerate deliverables
 
 ```bash
 # Word report (requires python-docx)
@@ -198,7 +198,7 @@ python scripts/generate_pptx.py           # → PolicyForge_Presentation.pptx
 
 ## Evaluation Methodology
 
-All metrics are **real and reproducible** — no fabricated data.
+All metrics are **real and reproducible**, no fabricated data.
 
 ### Gold Standard Creation
 
@@ -225,7 +225,7 @@ depression screening. Weighted F1 assigns 5× weight to cancer-screening policie
 (Tier 1) and 1× to routine policies (Tier 3).
 
 Result: **96.4% weighted F1** correctly reflects that NCD 210.3 at 80% F1 is a
-critical failure that requires human review — even though mean F1 is 98.2%.
+critical failure that requires human review, even though mean F1 is 98.2%.
 
 ---
 
@@ -243,9 +243,9 @@ critical failure that requires human review — even though mean F1 is 98.2%.
 
 | Phase | Readiness | Description |
 |-------|-----------|-------------|
-| **Option A — Now** | ✅ Ready | Audit triage: flag top 1.8% providers, human reviews all |
-| **Option B — 6 months** | ⏳ Needs validation | Hybrid: auto-approve Tier 2/3, review Tier 1 |
-| **Option C — 18+ months** | 🚫 Not yet | Full automation requires 99%+ and FDA review |
+| **Option A: Now** | ✅ Ready | Audit triage: flag top 1.8% providers, human reviews all |
+| **Option B: 6 months** | ⏳ Needs validation | Hybrid: auto-approve Tier 2/3, review Tier 1 |
+| **Option C: 18+ months** | 🚫 Not yet | Full automation requires 99%+ and FDA review |
 
 > **Bottom line:** 96.4% weighted F1 = excellent for **triage**. Not yet sufficient
 > for **unsupervised adjudication**. Deploy Option A today with 14× ROI.
@@ -270,14 +270,14 @@ critical failure that requires human review — even though mean F1 is 98.2%.
 | 12 | NCD 210.7 | HIV Screening | 4 | 1.000 | 2 |
 | 13 | NCD 210.9 | Depression Screening | 1 | 1.000 | 3 |
 | 14 | NCD 210.12 | Obesity Behavioral Therapy | 2 | 1.000 | 3 |
-| 15 | — | Glaucoma Screening | 2 | 1.000 | 3 |
+| 15 | None | Glaucoma Screening | 2 | 1.000 | 3 |
 
 ---
 
 ## Adjudication: Fixing the 100% Flag Rate
 
 The initial adjudicator flagged every single provider (100% flag rate) because
-it compared individual claims against a policy literal — but the dataset only
+it compared individual claims against a policy literal, but the dataset only
 contains **provider-level summaries**, not individual beneficiary claims.
 
 **Solution:** Statistical outlier detection using `mean + 2σ` on
@@ -287,7 +287,7 @@ contains **provider-level summaries**, not individual beneficiary claims.
 rates = df['Tot_Srvcs'] / df['Tot_Benes']
 threshold = rates.mean() + 2 * rates.std()
 flagged = df[df['services_per_bene'] > threshold]
-# Result: 389 / 21,521 providers (1.8%) — clinically realistic audit target
+# Result: 389 / 21,521 providers (1.8%) (clinically realistic audit target)
 ```
 
 File: `scripts/analyze_distribution.py`
@@ -299,7 +299,7 @@ File: `scripts/analyze_distribution.py`
 | File | Description |
 |------|-------------|
 | `PolicyForge_Report.docx` | 2-page APA report + bibliography |
-| `PolicyForge_Presentation.pptx` | 7-slide deck (title → recommendation) |
+| `PolicyForge_Presentation.pptx` | 10-slide deck (Problem to Recommendations) |
 | `policyforge/` | Full source code + data + evaluation |
 
 ---
