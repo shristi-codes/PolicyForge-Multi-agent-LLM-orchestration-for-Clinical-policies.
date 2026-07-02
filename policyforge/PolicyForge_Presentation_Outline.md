@@ -6,7 +6,7 @@
 ## Slide 1: Title Slide
 **Title**: PolicyForge: Automated Medicare Policy Extraction  
 **Subtitle**: From 45 Minutes to 8 Seconds - AI-Powered Claims Coding  
-**Author**: Abhishek Kumar  
+**Author**: Shristi Kumar  
 **Date**: July 1, 2026  
 **For**: Cotiviti Take-Home Assignment  
 

@@ -97,7 +97,7 @@ def header(slide, title_text):
     add_textbox(slide, title_text, Inches(0.5), Inches(0.4), Inches(12.0), Inches(0.8),
                 size=36, bold=True, color=NAVY)
 
-def footer(slide, text="PolicyForge | Abhishek Kumar | Cotiviti Assessment"):
+def footer(slide, text="PolicyForge | Shristi Kumar | Cotiviti Assessment"):
     txb = slide.shapes.add_textbox(Inches(0.5), Inches(7.1), Inches(12), Inches(0.3))
     tf = txb.text_frame
     tf_para(tf, text, 10, color=MID_GRAY)
@@ -151,7 +151,7 @@ def slide_1_title(prs):
                 Inches(1.05), Inches(3.2), Inches(11), Inches(0.8),
                 size=24, color=CYAN, bold=True)
 
-    add_textbox(slide, "Abhishek Kumar\nCotiviti Intern Assessment\nJuly 2026", 
+    add_textbox(slide, "Shristi Kumar\nCotiviti Intern Assessment\nJuly 2026", 
                 Inches(1.05), Inches(5.5), Inches(8), Inches(1.5),
                 size=16, color=MID_GRAY)
 

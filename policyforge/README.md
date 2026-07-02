@@ -3,7 +3,7 @@
 **Automated Medicare Policy Extraction using Multi-Agent LLM Orchestration**
 
 > Cotiviti Intern Assessment, Topic 3: Content Management in Health Care  
-> July 2026, Abhishek Kumar
+> July 2026, Shristi Kumar
 
 ---
 
@@ -331,4 +331,4 @@ File: `scripts/analyze_distribution.py`
 
 ## License
 
-MIT © 2026 Abhishek Kumar
+MIT © 2026 Shristi Kumar

@@ -2,12 +2,9 @@
 """
 Generate PolicyForge Word Report (.docx)
 
-Exact requirements from assessment:
-- Two-page report (body) + third page bibliography
-- Define the topic concept
-- Analyze relevant trends
-- Describe opportunities and threats
-- Propose strategic options for Cotiviti
+Structure:
+- Two-page body + bibliography page
+- Abstract, Industry Relevance, Methodology, Results, Implications, Conclusion
 - APA format citations
 """
 
@@ -89,7 +86,7 @@ def build_report():
     meta_p = doc.add_paragraph()
     meta_p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     meta_p.paragraph_format.space_after = Pt(10)
-    m = meta_p.add_run("Abhishek Kumar  |  Cotiviti Intern Assessment  |  July 2026")
+    m = meta_p.add_run("Shristi Kumar  |  Cotiviti Intern Assessment  |  July 2026")
     m.font.size = Pt(10)
     m.font.color.rgb = RGBColor(0x55, 0x55, 0x55)
 
@@ -100,143 +97,156 @@ def build_report():
     hr_run.font.size = Pt(8)
     hr_run.font.color.rgb = RGBColor(0xAA, 0xAA, 0xAA)
 
-    # ── SECTION 1: TOPIC DEFINITION ──────────────────────────
-    add_heading(doc, "1. Topic Definition", size=13, color=(0x1F, 0x49, 0x7D),
+    # ── ABSTRACT ─────────────────────────────────────────────
+    add_heading(doc, "Abstract", size=13, color=(0x1F, 0x49, 0x7D),
                 spacing_before=4, spacing_after=4)
 
     add_body(doc,
-        "Healthcare payers—including Cotiviti—process thousands of Medicare National Coverage "
-        "Determinations (NCDs) and Local Coverage Determinations (LCDs). Each policy encodes "
-        "clinical rules: which procedure codes (HCPCS/CPT) are covered, at what frequency, "
-        "and under which patient conditions. Translating these documents into machine-executable "
-        "logic is the domain of healthcare content management.",
+        "This report presents PolicyForge, a proof-of-concept system that automates extraction "
+        "of Medicare billing rules from National Coverage Determinations (NCDs) and Code of Federal "
+        "Regulations (CFRs). The system uses a six-agent LLM pipeline with hybrid retrieval "
+        "(BM25 + FAISS) to convert unstructured policy text into structured HCPCS codes and "
+        "frequency limits, then applies those rules to flag high-utilization providers in CMS "
+        "Part B data. We evaluated the system on 15 real CMS policies with hand-labeled gold "
+        "standards, achieving 98.2% mean F1 on code extraction and 96.4% weighted F1 when "
+        "scored by clinical severity. The project demonstrates that LLM-based policy extraction "
+        "can reduce analyst time from 45 minutes to 8 seconds per policy (15× cost reduction), "
+        "but also shows why human review remains necessary for high-risk cancer-screening policies.",
+        spacing_after=6)
+
+    # ── SECTION 1: INDUSTRY RELEVANCE ───────────────────────
+    add_heading(doc, "1. Industry Relevance", size=13, color=(0x1F, 0x49, 0x7D),
+                spacing_before=4, spacing_after=4)
+
+    add_body(doc,
+        "For companies like Cotiviti that support payer audit and payment integrity programs, "
+        "healthcare content management is a core operational bottleneck. Every Medicare policy "
+        "update must be translated into executable logic: which HCPCS/CPT codes are covered, "
+        "how often services may be billed, and which patient populations qualify. Today this "
+        "work is done manually by medical policy analysts at roughly 45 minutes and $56 per "
+        "policy. With CMS issuing over 1,200 coverage updates annually, manual extraction does "
+        "not scale and introduces inconsistency across audit teams.",
         spacing_after=5)
 
     add_body(doc,
-        "PolicyForge demonstrates a modern approach to this challenge: a multi-agent Large "
-        "Language Model (LLM) pipeline that ingests raw policy text and outputs structured, "
-        "validated extraction objects—HCPCS code sets, frequency limits, and eligibility "
-        "criteria—ready for downstream claims adjudication. The pipeline combines Retrieval-"
-        "Augmented Generation (RAG) for contextual grounding, Pydantic schema validation for "
-        "data integrity, and statistical outlier detection for audit triage.",
+        "The industry need is not simply faster document reading. Payers need repeatable, "
+        "auditable rules that can be applied to claims data at scale. PolicyForge addresses "
+        "this by connecting policy ingestion directly to provider-level utilization analysis, "
+        "so extracted rules can immediately support audit triage rather than sitting in static "
+        "spreadsheets.",
         spacing_after=5)
 
-    # ── SECTION 2: TRENDS ────────────────────────────────────
-    add_heading(doc, "2. Relevant Trends", size=13, color=(0x1F, 0x49, 0x7D),
-                spacing_before=6, spacing_after=4)
+    # ── SECTION 2: METHODOLOGY ───────────────────────────────
+    add_heading(doc, "2. Methodology", size=13, color=(0x1F, 0x49, 0x7D),
+                spacing_before=4, spacing_after=4)
 
     add_body(doc,
-        "Three converging forces are reshaping healthcare content management:",
+        "We built PolicyForge as an end-to-end pipeline with four stages:",
         spacing_after=3)
 
     add_bullet(doc,
-        "LLM Maturation. Instruction-tuned models (GPT-4, Mistral-large, Claude 3) now extract "
-        "structured data from complex regulatory prose with accuracy approaching human medical "
-        "coders. Structured-output APIs (JSON mode) eliminate post-processing fragility.")
+        "Data collection. We sourced 15 real Medicare policies from CMS.gov and eCFR, spanning "
+        "cancer screening (colorectal, mammography, lung), cardiovascular and metabolic "
+        "screening, and behavioral health programs.")
     add_bullet(doc,
-        "Policy Volume Growth. CMS issued 1,200+ coverage policy updates in 2023 alone. Manual "
-        "extraction—at roughly 45 minutes and $56 per policy—cannot scale to this velocity, "
-        "creating a $67M+ annual burden across major payers (estimated from CMS policy update "
-        "rates and analyst labor costs).")
+        "Policy extraction. A LangGraph orchestration runs six agents in sequence: Retriever "
+        "(hybrid RAG over policy text), Extractor (Mistral-large with structured JSON output), "
+        "Critic (completeness check), Compiler (policy-to-code translation), Adjudicator "
+        "(statistical outlier detection), and Explainer (audit memo generation).")
     add_bullet(doc,
-        "Agentic Orchestration. Frameworks like LangGraph enable multi-step validation pipelines "
-        "where a Critic agent catches LLM errors before they propagate downstream—reducing "
-        "false extractions that would otherwise generate wrongful claim denials.")
+        "Evaluation. We created manual gold standards by reading each policy document and "
+        "recording expected HCPCS codes and frequency limits. LLM outputs were scored with "
+        "precision, recall, and F1 against these gold standards. We also classified policies "
+        "by clinical severity (Tier 1: cancer; Tier 2: CVD/metabolic; Tier 3: routine) to "
+        "compute a weighted F1 that reflects patient-harm risk.")
+    add_bullet(doc,
+        "Utilization analysis. Extracted rules were applied to a CMS Part B provider summary "
+        "dataset (21,521 providers). Providers exceeding mean + 2 standard deviations on "
+        "services-per-beneficiary were flagged for audit review.")
 
-    # ── SECTION 3: OPPORTUNITIES & THREATS ───────────────────
-    add_heading(doc, "3. Opportunities and Threats", size=13, color=(0x1F, 0x49, 0x7D),
-                spacing_before=6, spacing_after=4)
-
-    add_body(doc, "Opportunities:", bold_=True, spacing_after=2)
-
-    add_bullet(doc,
-        "15× Cost Reduction. PolicyForge processes a policy in 8 seconds at $3.75 (LLM API "
-        "+ 5-minute human review) versus $56.25 for fully manual extraction. At 1,000 policies "
-        "annually, this yields $52,500 in direct savings.")
-    add_bullet(doc,
-        "Accuracy at Scale. Evaluated on 15 diverse Medicare policies spanning cancer screening, "
-        "cardiovascular disease, and behavioral health, PolicyForge achieved 98.2% mean F1 on "
-        "HCPCS code extraction and 96.4% when weighted by clinical severity—exceeding the 95% "
-        "threshold defined for initial automation eligibility.")
-    add_bullet(doc,
-        "Audit Triage. Statistical outlier detection (2σ threshold on services-per-beneficiary) "
-        "flags 1.8% of providers for human review—a clinically realistic audit rate that "
-        "replaced a broken 100%-flag baseline through principled statistical design.")
-
-    add_body(doc, "Threats:", bold_=True, spacing_after=2)
-
-    add_bullet(doc,
-        "Clinical Safety Gap. Despite 98% mean F1, NCD 210.3 (colorectal cancer screening) "
-        "scores 80% F1—meaning 2 of 11 HCPCS codes are missed. In a clinical context, incorrect "
-        "denial of colonoscopy coverage delays life-saving screening. Healthcare automation "
-        "requires ≥99% accuracy on Tier 1 (cancer) policies before removing human oversight.")
-    add_bullet(doc,
-        "Regulatory Exposure. CMS requires audit trails for claims adjudication; FDA may classify "
-        "clinical-decision-support software requiring 510(k) review. Full deployment without "
-        "compliance architecture creates legal and operational risk.")
-    add_bullet(doc,
-        "Self-Validation Bias. Gold standards were created by the same analyst who designed the "
-        "system. Independent validation against NCCI (National Correct Coding Initiative) edit "
-        "tables or a second certified medical coder is required before production certification.")
+    add_body(doc,
+        "To improve extraction quality, we iterated on three technical levers: extending LLM "
+        "context from 4K to 12K characters, adding few-shot examples of correct extractions, "
+        "and splitting extraction into separate passes for codes and frequency limits.",
+        spacing_after=5)
 
     # ── PAGE BREAK ───────────────────────────────────────────
     add_page_break(doc)
 
-    # ── SECTION 4: STRATEGIC RECOMMENDATIONS ─────────────────
-    add_heading(doc, "4. Strategic Recommendations for Cotiviti", size=13,
-                color=(0x1F, 0x49, 0x7D), spacing_before=4, spacing_after=4)
+    # ── SECTION 3: RESULTS & OUTPUT ──────────────────────────
+    add_heading(doc, "3. Results and Output", size=13, color=(0x1F, 0x49, 0x7D),
+                spacing_before=4, spacing_after=4)
 
     add_body(doc,
-        "Three deployment options are proposed, sequenced by risk and readiness:",
-        spacing_after=4)
+        "Table 1 summarizes the primary outputs of the proof of concept.",
+        spacing_after=3)
 
-    # Option 1
-    add_heading(doc, "Option A — Audit Triage Tool (Deploy Immediately)", size=11,
-                bold=True, color=(0x2E, 0x75, 0x2F), spacing_before=4, spacing_after=2)
+    add_bullet(doc,
+        "Extraction accuracy: 98.2% mean HCPCS F1 across 15 policies; 14 of 15 policies at F1 ≥ 0.9.")
+    add_bullet(doc,
+        "Clinical-weighted accuracy: 96.4% weighted F1 when cancer-screening policies receive "
+        "higher weight than routine behavioral health policies.")
+    add_bullet(doc,
+        "Operational efficiency: 8 seconds and $3.75 per policy (including review time) vs. "
+        "45 minutes and $56.25 for fully manual extraction.")
+    add_bullet(doc,
+        "Audit triage output: 389 of 21,521 providers (1.8%) flagged as statistical outliers, "
+        "replacing an initial broken baseline that flagged 100% of providers.")
+    add_bullet(doc,
+        "Structured deliverables: JSON extraction files per policy, evaluation reports, and "
+        "a reproducible GitHub repository with source code and gold standards.")
+
     add_body(doc,
-        "Deploy PolicyForge to flag statistical outliers (top 1.8% of providers by utilization "
-        "rate) for human audit review. The system does not make final adjudication decisions; "
-        "human coders review every flagged case. At 96.4% weighted F1, the tool is safe for "
-        "triage—errors surface during human review rather than reaching claim denial. "
-        "Expected ROI: 14× cost reduction for initial screening. Regulatory risk: Low "
-        "(human in the loop). Recommended timeline: immediate.",
+        "Performance was not uniform across all policy types. Tier 2 and Tier 3 policies "
+        "(cardiovascular, diabetes, depression, obesity) reached 100% F1. Tier 1 cancer "
+        "screening averaged 93.3%, with NCD 210.3 (colorectal screening) remaining at 80% F1 "
+        "because two of eleven HCPCS codes were still missed after iterative improvement. "
+        "This gap matters clinically: missing colonoscopy codes could lead to incorrect claim "
+        "denials and delayed screening.",
         spacing_after=5)
 
-    # Option 2
-    add_heading(doc, "Option B — Hybrid Automation (6-Month Roadmap)", size=11,
-                bold=True, color=(0xBF, 0x87, 0x00), spacing_before=4, spacing_after=2)
+    add_heading(doc, "4. Implications for Cotiviti", size=13, color=(0x1F, 0x49, 0x7D),
+                spacing_before=4, spacing_after=4)
+
     add_body(doc,
-        "Route extractions by confidence tier. Tier 3 (behavioral health) and Tier 2 "
-        "(cardiovascular/metabolic) policies—currently at 100% F1—auto-approve with a 10% "
-        "spot audit. Tier 1 (cancer screening) retains mandatory human review until F1 reaches "
-        "≥95% on all constituent policies. Prerequisites: NCCI validation, confidence scoring "
-        "implementation, and audit trail infrastructure. Expected ROI: 20× cost reduction. "
-        "Regulatory risk: Medium. Recommended timeline: 6 months.",
+        "The results support a staged adoption path rather than a single go/no-go decision on "
+        "full automation. In the near term, PolicyForge is best positioned as a policy "
+        "ingestion and audit-prioritization tool: analysts use LLM extraction to draft rules "
+        "quickly, then review flagged providers rather than reviewing the entire provider "
+        "population. This preserves human oversight where clinical risk is highest while "
+        "still capturing most of the 15× efficiency gain.",
         spacing_after=5)
 
-    # Option 3
-    add_heading(doc, "Option C — Full Automation (18+ Month Horizon, Not Yet Recommended)", size=11,
-                bold=True, color=(0xC0, 0x2B, 0x2B), spacing_before=4, spacing_after=2)
     add_body(doc,
-        "Full unsupervised adjudication requires ≥99% weighted F1 on all policy tiers, "
-        "external validation by certified medical coders, FDA 510(k) review for clinical "
-        "decision support classification, continuous model monitoring with rollback capability, "
-        "and HIPAA-compliant audit logging. This is a 2-year investment; premature deployment "
-        "creates patient-safety liability. Not recommended without completing Option B first.",
-        spacing_after=6)
+        "Broader industry trends reinforce this approach. LLM accuracy on regulatory text is "
+        "now strong enough for triage but not yet sufficient for unsupervised adjudication on "
+        "life-critical policies. Regulatory requirements (CMS audit trails, potential FDA "
+        "review of clinical decision support tools) also favor human-in-the-loop deployment. "
+        "The immediate opportunity for Cotiviti is to reduce policy analyst workload and "
+        "narrow audit scope to high-risk providers. The longer-term opportunity is hybrid "
+        "automation on lower-risk policy tiers once independent validation (NCCI cross-check, "
+        "second medical coder review) confirms extraction quality.",
+        spacing_after=5)
+
+    add_body(doc,
+        "Key risks to manage include self-validation bias (gold standards created by the same "
+        "team that built the system), residual errors on complex multi-code policies like "
+        "colorectal screening, and the need for confidence scoring so uncertain extractions "
+        "route automatically to expert review.",
+        spacing_after=5)
 
     # ── CONCLUSION ────────────────────────────────────────────
     add_heading(doc, "5. Conclusion", size=13, color=(0x1F, 0x49, 0x7D),
-                spacing_before=6, spacing_after=4)
+                spacing_before=4, spacing_after=4)
     add_body(doc,
-        "PolicyForge demonstrates that LLM-based healthcare content management is technically "
-        "viable and economically compelling. The 15× cost reduction and 98% extraction accuracy "
-        "justify immediate investment in Option A (audit triage). However, clinical safety "
-        "considerations—particularly the 80% F1 gap on colorectal cancer screening—require "
-        "that full automation remain a staged, validated roadmap rather than a first deployment. "
-        "The strategic imperative for Cotiviti is clear: move quickly to capture the efficiency "
-        "gains of AI-assisted policy extraction while building the validation infrastructure "
-        "necessary to earn the trust of regulators, payers, and patients.",
+        "PolicyForge shows that multi-agent LLM orchestration can convert Medicare policy "
+        "documents into structured, data-ready rules at scale. The proof of concept is "
+        "technically sound (98.2% mean F1), operationally relevant (1.8% targeted audit "
+        "rate), and economically justified (15× cost reduction). The honest limitation is "
+        "clinical: high-stakes screening policies still require human validation before "
+        "any automated denial logic. For Cotiviti, the strategic value is using AI to "
+        "accelerate content management and focus expert reviewers where patient impact is "
+        "greatest, not replacing those reviewers entirely.",
         spacing_after=6)
 
     # ── PAGE BREAK to bibliography ────────────────────────────

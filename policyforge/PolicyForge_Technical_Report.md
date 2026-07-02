@@ -1,7 +1,7 @@
 # PolicyForge: Automated Medicare Policy Extraction System
 ## Technical Report
 
-**Author**: Abhishek Kumar  
+**Author**: Shristi Kumar  
 **Date**: July 1, 2026  
 **Project**: Cotiviti Take-Home Assignment  
 

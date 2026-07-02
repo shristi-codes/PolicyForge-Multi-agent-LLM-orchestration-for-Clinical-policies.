@@ -13,7 +13,7 @@ Create a professional, technical presentation for a healthcare data intelligence
 - **Main Title:** "PolicyForge: Agentic AI System for Medicare Policy Automation"
 - **Subtitle:** "Transforming Written Coverage Policies into Executable Payment Integrity Edits"
 - **Tagline:** "98.2% Extraction Accuracy | 96.4% Weighted F1 | 15× Cost Reduction | Multi-Agent LLM Orchestration"
-- **Your Details:** Abhishek Kumar | MS Applied Data Intelligence | San José State University | July 2026
+- **Your Details:** Shristi Kumar | MS Applied Data Intelligence | San José State University | July 2026
 
 **Visual Elements:**
 - Abstract background showing policy text transforming into structured data/code
@@ -817,7 +817,7 @@ Fund a 3-month pilot to validate PolicyForge at scale (50-100 policies) with rea
 **Main Message:** "Thank You for Your Consideration"
 
 **Candidate Information:**
-- **Name:** Abhishek Kumar
+- **Name:** Shristi Kumar
 - **Program:** MS Applied Data Intelligence, San José State University
 - **Email:** abhishek.kumar@sjsu.edu (update with real email)
 - **LinkedIn:** [your profile link]
@@ -912,7 +912,7 @@ Fund a 3-month pilot to validate PolicyForge at scale (50-100 policies) with rea
 - [x] 1.8% flag rate (389 / 21,521 providers)
 - [x] 3-phase deployment (not vague "production someday")
 - [x] 90-95th percentile submission (not 70-75th)
-- [x] Name: Abhishek Kumar (not Shristi Kumar)
+- [x] Name: Shristi Kumar
 
 **Story Flow:**
 1. Problem ($30B)
