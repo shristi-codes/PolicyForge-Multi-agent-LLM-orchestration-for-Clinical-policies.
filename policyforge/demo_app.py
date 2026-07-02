@@ -85,7 +85,7 @@ with tab1:
     
     with col1:
         st.subheader(f"📋 {selected_policy}")
-        st.badge(policy_info["tier"], color="blue")
+        st.markdown(f'<span style="background-color: #0ea5e9; color: white; padding: 4px 12px; border-radius: 12px; font-size: 14px;">{policy_info["tier"]}</span>', unsafe_allow_html=True)
     
     with col2:
         st.metric("Extraction F1 Score", policy_info["f1"])
